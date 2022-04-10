@@ -6,6 +6,9 @@ Assignment 1
 March 2022
 """
 import threading
+import logging
+import time
+from logging.handlers import RotatingFileHandler
 
 
 class Marketplace:
@@ -37,13 +40,21 @@ class Marketplace:
         self.carts = {}
         self.cart_ids = 0
         self.lock = threading.Lock()
+        self.handler = RotatingFileHandler('marketplace.log', maxBytes=100000, backupCount=30)
+        logging.basicConfig(handlers=[self.handler], level=logging.INFO,
+                            format='%(asctime)s %(levelname)s '
+                                   ' - %(funcName)s: %(message)s')
+        logging.Formatter.converter = time.gmtime
+        logging.info(f"init with queue_size_per_producer={queue_size_per_producer}")
 
     def register_producer(self):
         """
         Returns an id for the producer that calls this.
         """
+        logging.info("start func")
         producer_id = self.producer_ids
         self.producer_ids += 1
+        logging.info(f"exit func with producer_id={producer_id}")
         return producer_id
 
     def publish(self, producer_id, product):
@@ -58,6 +69,7 @@ class Marketplace:
 
         :returns True or False. If the caller receives False, it should wait and then try again.
         """
+        logging.info(f"start func with producer_id={producer_id}, product={product}")
         # if producer_id is the first time in the marketplace, it needs a new entry
         if producer_id not in self.queue:
             self.queue[producer_id] = {}
@@ -73,8 +85,11 @@ class Marketplace:
                 # if it already exists just increment the qty
                 else:
                     products[product] += 1
+                logging.info("exit func ret=True")
                 return True
+            logging.info("exit func ret=False")
             return False
+        logging.info("exit func ret=False")
         return False
 
     def new_cart(self):
@@ -83,9 +98,11 @@ class Marketplace:
 
         :returns an int representing the cart_id
         """
+        logging.info("start func")
         cart_id = self.cart_ids
         self.carts[cart_id] = []
         self.cart_ids += 1
+        logging.info(f"exit func with id={cart_id}")
         return cart_id
 
     def add_to_cart(self, cart_id, product):
@@ -100,6 +117,7 @@ class Marketplace:
 
         :returns True or False. If the caller receives False, it should wait and then try again
         """
+        logging.info(f"start func with cart_id={cart_id}, product={product}")
         # is there this product with qty != 0?
         # if yes, add it then decrement the qty
         # in this way, the product will be unavailable to other consumers
@@ -110,7 +128,9 @@ class Marketplace:
                     shopping_list.append(product)
                     self.carts[cart_id] = shopping_list
                     products[product] -= 1  # make it unavailable
+                    logging.info(f"exit func with ret=True")
                     return True
+        logging.info(f"exit func with ret=False")
         return False
 
     def remove_from_cart(self, cart_id, product):
@@ -123,12 +143,14 @@ class Marketplace:
         :type product: Product
         :param product: the product to remove from cart
         """
+        logging.info(f"start func with cart_id={cart_id}, product={product}")
         shopping_list = self.carts[cart_id]
         shopping_list.remove(product)
         self.carts[cart_id] = shopping_list
         for products in self.queue.values():
             if product in products:
                 products[product] += 1  # make it available
+        logging.info(f"exit func")
 
     def place_order(self, cart_id):
         """
@@ -137,4 +159,5 @@ class Marketplace:
         :type cart_id: Int
         :param cart_id: id cart
         """
+        logging.info(f"start func with cart_id={cart_id} and returned")
         return self.carts[cart_id]

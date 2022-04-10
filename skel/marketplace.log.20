@@ -1,0 +1,940 @@
+2022-04-10 15:24:22,225 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,232 INFO marketplace - publish: start func with producer_id=0, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,242 INFO marketplace - publish: start func with producer_id=34, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,248 INFO marketplace - publish: start func with producer_id=4, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,250 INFO marketplace - publish: start func with producer_id=35, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:24:22,256 INFO marketplace - publish: start func with producer_id=20, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,257 INFO marketplace - publish: start func with producer_id=44, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,258 INFO marketplace - publish: start func with producer_id=27, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,271 INFO marketplace - publish: start func with producer_id=39, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,299 INFO marketplace - publish: exit func ret=False
+2022-04-10 15:24:22,277 INFO marketplace - publish: exit func ret=True
+2022-04-10 15:24:22,277 INFO marketplace - publish: exit func ret=False
+2022-04-10 15:24:22,277 INFO marketplace - publish: start func with producer_id=31, product=Tea(name='Pai Mu Tan', price=9, type='White')
+2022-04-10 15:24:22,277 INFO marketplace - publish: exit func ret=True
+2022-04-10 15:24:22,278 INFO marketplace - publish: start func with producer_id=42, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,281 INFO marketplace - publish: start func with producer_id=16, product=Tea(name='Pai Mu Tan', price=9, type='White')
+2022-04-10 15:24:22,286 INFO marketplace - publish: start func with producer_id=26, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,302 INFO marketplace - publish: exit func ret=False
+2022-04-10 15:24:22,297 INFO marketplace - publish: exit func ret=False
+2022-04-10 15:24:22,298 INFO marketplace - publish: exit func ret=False
+2022-04-10 15:24:22,298 INFO marketplace - publish: exit func ret=False
+2022-04-10 15:24:22,276 INFO marketplace - add_to_cart: start func with cart_id=509, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,299 INFO marketplace - publish: start func with producer_id=5, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,299 INFO marketplace - publish: start func with producer_id=28, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,300 INFO marketplace - publish: exit func ret=False
+2022-04-10 15:24:22,301 INFO marketplace - publish: exit func ret=False
+2022-04-10 15:24:22,302 INFO marketplace - publish: exit func ret=True
+2022-04-10 15:24:22,296 INFO marketplace - publish: exit func ret=False
+2022-04-10 15:24:22,303 INFO marketplace - publish: start func with producer_id=32, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,304 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,304 INFO marketplace - publish: exit func ret=True
+2022-04-10 15:24:22,304 INFO marketplace - publish: exit func ret=False
+2022-04-10 15:24:22,305 INFO marketplace - publish: exit func ret=False
+2022-04-10 15:24:22,305 INFO marketplace - place_order: start func with cart_id=509
+2022-04-10 15:24:22,306 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,306 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,306 INFO marketplace - new_cart: exit func with id=510
+2022-04-10 15:24:22,306 INFO marketplace - add_to_cart: start func with cart_id=510, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,306 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,307 INFO marketplace - add_to_cart: start func with cart_id=510, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,307 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,307 INFO marketplace - add_to_cart: start func with cart_id=510, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,307 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,307 INFO marketplace - add_to_cart: start func with cart_id=510, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,307 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,308 INFO marketplace - add_to_cart: start func with cart_id=510, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,308 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,308 INFO marketplace - place_order: start func with cart_id=510
+2022-04-10 15:24:22,308 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,308 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,308 INFO marketplace - new_cart: exit func with id=511
+2022-04-10 15:24:22,308 INFO marketplace - add_to_cart: start func with cart_id=511, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,309 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,309 INFO marketplace - add_to_cart: start func with cart_id=511, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,309 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,309 INFO marketplace - add_to_cart: start func with cart_id=511, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,309 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,309 INFO marketplace - add_to_cart: start func with cart_id=511, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,310 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,310 INFO marketplace - add_to_cart: start func with cart_id=511, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,310 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,310 INFO marketplace - add_to_cart: start func with cart_id=511, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,310 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,310 INFO marketplace - add_to_cart: start func with cart_id=511, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,310 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,311 INFO marketplace - add_to_cart: start func with cart_id=511, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,311 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,311 INFO marketplace - add_to_cart: start func with cart_id=511, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,311 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,311 INFO marketplace - add_to_cart: start func with cart_id=511, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,311 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,312 INFO marketplace - place_order: start func with cart_id=511
+2022-04-10 15:24:22,312 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,312 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,312 INFO marketplace - new_cart: exit func with id=512
+2022-04-10 15:24:22,312 INFO marketplace - add_to_cart: start func with cart_id=512, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,312 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,312 INFO marketplace - add_to_cart: start func with cart_id=512, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,313 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,313 INFO marketplace - add_to_cart: start func with cart_id=512, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,313 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,313 INFO marketplace - add_to_cart: start func with cart_id=512, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,313 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,313 INFO marketplace - publish: start func with producer_id=48, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,313 INFO marketplace - add_to_cart: start func with cart_id=512, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,314 INFO marketplace - publish: exit func ret=True
+2022-04-10 15:24:22,314 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,314 INFO marketplace - add_to_cart: start func with cart_id=512, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,314 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,315 INFO marketplace - add_to_cart: start func with cart_id=512, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,315 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,315 INFO marketplace - add_to_cart: start func with cart_id=512, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,315 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,315 INFO marketplace - add_to_cart: start func with cart_id=512, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,315 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,316 INFO marketplace - add_to_cart: start func with cart_id=512, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,316 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,316 INFO marketplace - place_order: start func with cart_id=512
+2022-04-10 15:24:22,316 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,316 INFO marketplace - add_to_cart: start func with cart_id=309, product=Tea(name='Pai Mu Tan', price=9, type='White')
+2022-04-10 15:24:22,317 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,317 INFO marketplace - add_to_cart: start func with cart_id=309, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,317 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,317 INFO marketplace - add_to_cart: start func with cart_id=309, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,317 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,318 INFO marketplace - add_to_cart: start func with cart_id=309, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,318 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,318 INFO marketplace - add_to_cart: start func with cart_id=309, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,318 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,318 INFO marketplace - add_to_cart: start func with cart_id=309, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,319 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,319 INFO marketplace - remove_from_cart: start func with cart_id=309, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,319 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,319 INFO marketplace - place_order: start func with cart_id=309
+2022-04-10 15:24:22,320 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,320 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,320 INFO marketplace - new_cart: exit func with id=513
+2022-04-10 15:24:22,320 INFO marketplace - add_to_cart: start func with cart_id=513, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,320 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,321 INFO marketplace - add_to_cart: start func with cart_id=513, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,321 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,321 INFO marketplace - add_to_cart: start func with cart_id=513, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,321 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,321 INFO marketplace - add_to_cart: start func with cart_id=513, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,322 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,322 INFO marketplace - add_to_cart: start func with cart_id=513, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,322 INFO marketplace - publish: start func with producer_id=9, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,322 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,322 INFO marketplace - publish: exit func ret=False
+2022-04-10 15:24:22,322 INFO marketplace - add_to_cart: start func with cart_id=513, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,323 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,323 INFO marketplace - add_to_cart: start func with cart_id=513, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,323 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,323 INFO marketplace - publish: start func with producer_id=18, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,323 INFO marketplace - add_to_cart: start func with cart_id=513, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,324 INFO marketplace - publish: exit func ret=False
+2022-04-10 15:24:22,324 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,324 INFO marketplace - add_to_cart: start func with cart_id=513, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,324 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,324 INFO marketplace - add_to_cart: start func with cart_id=513, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,325 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,325 INFO marketplace - remove_from_cart: start func with cart_id=513, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,325 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,325 INFO marketplace - remove_from_cart: start func with cart_id=513, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,325 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,325 INFO marketplace - place_order: start func with cart_id=513
+2022-04-10 15:24:22,326 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,326 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,326 INFO marketplace - new_cart: exit func with id=514
+2022-04-10 15:24:22,326 INFO marketplace - add_to_cart: start func with cart_id=514, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,326 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,327 INFO marketplace - add_to_cart: start func with cart_id=514, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,327 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,327 INFO marketplace - add_to_cart: start func with cart_id=514, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,327 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,327 INFO marketplace - add_to_cart: start func with cart_id=514, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,328 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,328 INFO marketplace - add_to_cart: start func with cart_id=514, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,328 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,328 INFO marketplace - add_to_cart: start func with cart_id=514, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,328 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,328 INFO marketplace - add_to_cart: start func with cart_id=514, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,329 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,329 INFO marketplace - add_to_cart: start func with cart_id=514, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,329 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,329 INFO marketplace - place_order: start func with cart_id=514
+2022-04-10 15:24:22,329 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,330 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,330 INFO marketplace - new_cart: exit func with id=515
+2022-04-10 15:24:22,330 INFO marketplace - add_to_cart: start func with cart_id=515, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,330 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,330 INFO marketplace - add_to_cart: start func with cart_id=515, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,330 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,330 INFO marketplace - publish: start func with producer_id=29, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,331 INFO marketplace - add_to_cart: start func with cart_id=515, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,331 INFO marketplace - publish: exit func ret=False
+2022-04-10 15:24:22,331 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,331 INFO marketplace - add_to_cart: start func with cart_id=515, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,332 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,332 INFO marketplace - add_to_cart: start func with cart_id=515, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,332 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,332 INFO marketplace - add_to_cart: start func with cart_id=515, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,333 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,333 INFO marketplace - add_to_cart: start func with cart_id=515, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,333 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,333 INFO marketplace - add_to_cart: start func with cart_id=515, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,334 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,334 INFO marketplace - add_to_cart: start func with cart_id=515, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,334 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,334 INFO marketplace - add_to_cart: start func with cart_id=515, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,334 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,334 INFO marketplace - add_to_cart: start func with cart_id=515, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,335 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,335 INFO marketplace - remove_from_cart: start func with cart_id=515, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,335 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,335 INFO marketplace - place_order: start func with cart_id=515
+2022-04-10 15:24:22,335 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,336 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,336 INFO marketplace - new_cart: exit func with id=516
+2022-04-10 15:24:22,336 INFO marketplace - add_to_cart: start func with cart_id=516, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,336 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,336 INFO marketplace - add_to_cart: start func with cart_id=516, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,337 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,337 INFO marketplace - add_to_cart: start func with cart_id=516, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,337 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,337 INFO marketplace - add_to_cart: start func with cart_id=516, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,337 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,337 INFO marketplace - add_to_cart: start func with cart_id=516, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,338 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,338 INFO marketplace - add_to_cart: start func with cart_id=516, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,338 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,338 INFO marketplace - add_to_cart: start func with cart_id=516, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,338 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,339 INFO marketplace - add_to_cart: start func with cart_id=516, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:24:22,339 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,339 INFO marketplace - add_to_cart: start func with cart_id=516, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:24:22,339 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,339 INFO marketplace - add_to_cart: start func with cart_id=516, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:24:22,339 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,340 INFO marketplace - add_to_cart: start func with cart_id=516, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:24:22,340 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,340 INFO marketplace - place_order: start func with cart_id=516
+2022-04-10 15:24:22,340 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,340 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,340 INFO marketplace - new_cart: exit func with id=517
+2022-04-10 15:24:22,341 INFO marketplace - add_to_cart: start func with cart_id=517, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,341 INFO marketplace - publish: start func with producer_id=36, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,341 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,341 INFO marketplace - publish: exit func ret=False
+2022-04-10 15:24:22,341 INFO marketplace - add_to_cart: start func with cart_id=517, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,342 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,342 INFO marketplace - publish: start func with producer_id=47, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,342 INFO marketplace - add_to_cart: start func with cart_id=517, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,342 INFO marketplace - publish: exit func ret=False
+2022-04-10 15:24:22,342 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,343 INFO marketplace - add_to_cart: start func with cart_id=517, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,343 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,343 INFO marketplace - add_to_cart: start func with cart_id=517, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,343 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,343 INFO marketplace - add_to_cart: start func with cart_id=517, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,344 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,344 INFO marketplace - place_order: start func with cart_id=517
+2022-04-10 15:24:22,344 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,344 INFO marketplace - add_to_cart: start func with cart_id=440, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,344 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,344 INFO marketplace - add_to_cart: start func with cart_id=440, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,345 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,345 INFO marketplace - add_to_cart: start func with cart_id=440, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,345 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,345 INFO marketplace - add_to_cart: start func with cart_id=440, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,345 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,346 INFO marketplace - add_to_cart: start func with cart_id=440, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,346 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,346 INFO marketplace - remove_from_cart: start func with cart_id=440, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,346 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,346 INFO marketplace - remove_from_cart: start func with cart_id=440, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,346 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,347 INFO marketplace - place_order: start func with cart_id=440
+2022-04-10 15:24:22,347 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,347 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,347 INFO marketplace - new_cart: exit func with id=518
+2022-04-10 15:24:22,347 INFO marketplace - add_to_cart: start func with cart_id=518, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,348 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,348 INFO marketplace - add_to_cart: start func with cart_id=518, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,348 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,348 INFO marketplace - add_to_cart: start func with cart_id=518, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,348 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,349 INFO marketplace - add_to_cart: start func with cart_id=518, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,349 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,349 INFO marketplace - add_to_cart: start func with cart_id=518, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,349 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,349 INFO marketplace - add_to_cart: start func with cart_id=518, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,350 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,350 INFO marketplace - add_to_cart: start func with cart_id=518, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,350 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,350 INFO marketplace - add_to_cart: start func with cart_id=518, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,350 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,350 INFO marketplace - add_to_cart: start func with cart_id=518, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,351 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,351 INFO marketplace - add_to_cart: start func with cart_id=518, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,351 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,351 INFO marketplace - add_to_cart: start func with cart_id=518, product=Tea(name='Pai Mu Tan', price=9, type='White')
+2022-04-10 15:24:22,351 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,351 INFO marketplace - add_to_cart: start func with cart_id=518, product=Tea(name='Pai Mu Tan', price=9, type='White')
+2022-04-10 15:24:22,352 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,352 INFO marketplace - place_order: start func with cart_id=518
+2022-04-10 15:24:22,352 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,352 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,352 INFO marketplace - new_cart: exit func with id=519
+2022-04-10 15:24:22,353 INFO marketplace - add_to_cart: start func with cart_id=519, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,353 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,353 INFO marketplace - add_to_cart: start func with cart_id=519, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,353 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,353 INFO marketplace - add_to_cart: start func with cart_id=519, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,353 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,354 INFO marketplace - place_order: start func with cart_id=519
+2022-04-10 15:24:22,354 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,354 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,354 INFO marketplace - new_cart: exit func with id=520
+2022-04-10 15:24:22,354 INFO marketplace - add_to_cart: start func with cart_id=520, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,354 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,355 INFO marketplace - add_to_cart: start func with cart_id=520, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,355 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,355 INFO marketplace - remove_from_cart: start func with cart_id=520, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,355 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,355 INFO marketplace - remove_from_cart: start func with cart_id=520, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,355 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,356 INFO marketplace - place_order: start func with cart_id=520
+2022-04-10 15:24:22,356 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,356 INFO marketplace - add_to_cart: start func with cart_id=508, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,356 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,356 INFO marketplace - add_to_cart: start func with cart_id=508, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,357 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,357 INFO marketplace - add_to_cart: start func with cart_id=508, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,357 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,357 INFO marketplace - add_to_cart: start func with cart_id=508, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,357 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,358 INFO marketplace - place_order: start func with cart_id=416
+2022-04-10 15:24:22,358 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,358 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,358 INFO marketplace - new_cart: exit func with id=521
+2022-04-10 15:24:22,358 INFO marketplace - add_to_cart: start func with cart_id=521, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,358 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,358 INFO marketplace - remove_from_cart: start func with cart_id=521, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,359 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,359 INFO marketplace - place_order: start func with cart_id=521
+2022-04-10 15:24:22,359 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,359 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,359 INFO marketplace - new_cart: exit func with id=522
+2022-04-10 15:24:22,359 INFO marketplace - add_to_cart: start func with cart_id=522, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,360 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,360 INFO marketplace - add_to_cart: start func with cart_id=522, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,360 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,360 INFO marketplace - add_to_cart: start func with cart_id=522, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,360 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,360 INFO marketplace - add_to_cart: start func with cart_id=522, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,361 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,361 INFO marketplace - add_to_cart: start func with cart_id=522, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,361 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,361 INFO marketplace - add_to_cart: start func with cart_id=522, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,361 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,361 INFO marketplace - add_to_cart: start func with cart_id=522, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,362 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,362 INFO marketplace - add_to_cart: start func with cart_id=522, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,362 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,362 INFO marketplace - add_to_cart: start func with cart_id=522, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,362 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,362 INFO marketplace - add_to_cart: start func with cart_id=522, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,362 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,363 INFO marketplace - remove_from_cart: start func with cart_id=522, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,363 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,363 INFO marketplace - remove_from_cart: start func with cart_id=522, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,363 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,363 INFO marketplace - place_order: start func with cart_id=522
+2022-04-10 15:24:22,364 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,364 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,364 INFO marketplace - new_cart: exit func with id=523
+2022-04-10 15:24:22,364 INFO marketplace - add_to_cart: start func with cart_id=523, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,364 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,364 INFO marketplace - add_to_cart: start func with cart_id=523, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,364 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,365 INFO marketplace - add_to_cart: start func with cart_id=523, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,365 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,365 INFO marketplace - add_to_cart: start func with cart_id=523, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,365 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,365 INFO marketplace - add_to_cart: start func with cart_id=523, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,365 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,366 INFO marketplace - add_to_cart: start func with cart_id=523, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,366 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,366 INFO marketplace - add_to_cart: start func with cart_id=523, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,366 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,366 INFO marketplace - add_to_cart: start func with cart_id=523, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,366 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,367 INFO marketplace - add_to_cart: start func with cart_id=523, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,367 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,367 INFO marketplace - add_to_cart: start func with cart_id=523, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,367 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,367 INFO marketplace - add_to_cart: start func with cart_id=523, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,367 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,368 INFO marketplace - add_to_cart: start func with cart_id=523, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,368 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,368 INFO marketplace - place_order: start func with cart_id=523
+2022-04-10 15:24:22,368 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,368 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,368 INFO marketplace - new_cart: exit func with id=524
+2022-04-10 15:24:22,369 INFO marketplace - add_to_cart: start func with cart_id=524, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,369 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,369 INFO marketplace - add_to_cart: start func with cart_id=524, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,369 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,369 INFO marketplace - add_to_cart: start func with cart_id=524, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,369 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,370 INFO marketplace - add_to_cart: start func with cart_id=524, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,370 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,370 INFO marketplace - add_to_cart: start func with cart_id=524, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,370 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,370 INFO marketplace - remove_from_cart: start func with cart_id=524, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,371 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,371 INFO marketplace - remove_from_cart: start func with cart_id=524, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,371 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,371 INFO marketplace - place_order: start func with cart_id=524
+2022-04-10 15:24:22,371 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,371 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,372 INFO marketplace - new_cart: exit func with id=525
+2022-04-10 15:24:22,372 INFO marketplace - add_to_cart: start func with cart_id=525, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,372 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,372 INFO marketplace - publish: start func with producer_id=46, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,372 INFO marketplace - add_to_cart: start func with cart_id=525, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,372 INFO marketplace - publish: start func with producer_id=37, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,372 INFO marketplace - publish: exit func ret=False
+2022-04-10 15:24:22,373 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,373 INFO marketplace - publish: exit func ret=False
+2022-04-10 15:24:22,373 INFO marketplace - add_to_cart: start func with cart_id=525, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,374 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,374 INFO marketplace - add_to_cart: start func with cart_id=525, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,374 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,374 INFO marketplace - add_to_cart: start func with cart_id=525, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,374 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,375 INFO marketplace - place_order: start func with cart_id=525
+2022-04-10 15:24:22,375 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,375 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,375 INFO marketplace - new_cart: exit func with id=526
+2022-04-10 15:24:22,375 INFO marketplace - add_to_cart: start func with cart_id=526, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,375 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,376 INFO marketplace - add_to_cart: start func with cart_id=526, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,376 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,376 INFO marketplace - add_to_cart: start func with cart_id=526, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:24:22,376 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,376 INFO marketplace - add_to_cart: start func with cart_id=526, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:24:22,376 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,377 INFO marketplace - place_order: start func with cart_id=526
+2022-04-10 15:24:22,377 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,377 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,377 INFO marketplace - new_cart: exit func with id=527
+2022-04-10 15:24:22,377 INFO marketplace - add_to_cart: start func with cart_id=527, product=Tea(name='Pai Mu Tan', price=9, type='White')
+2022-04-10 15:24:22,377 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,378 INFO marketplace - add_to_cart: start func with cart_id=527, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,378 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,378 INFO marketplace - add_to_cart: start func with cart_id=527, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,378 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,378 INFO marketplace - add_to_cart: start func with cart_id=527, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,379 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,379 INFO marketplace - add_to_cart: start func with cart_id=527, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,379 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,379 INFO marketplace - remove_from_cart: start func with cart_id=527, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,379 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,380 INFO marketplace - place_order: start func with cart_id=527
+2022-04-10 15:24:22,380 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,380 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,380 INFO marketplace - new_cart: exit func with id=528
+2022-04-10 15:24:22,380 INFO marketplace - publish: start func with producer_id=24, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,380 INFO marketplace - add_to_cart: start func with cart_id=528, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:24:22,381 INFO marketplace - publish: exit func ret=False
+2022-04-10 15:24:22,381 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,381 INFO marketplace - add_to_cart: start func with cart_id=528, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:24:22,381 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,382 INFO marketplace - add_to_cart: start func with cart_id=528, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:24:22,382 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,382 INFO marketplace - add_to_cart: start func with cart_id=528, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:24:22,382 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,382 INFO marketplace - add_to_cart: start func with cart_id=528, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,382 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,383 INFO marketplace - add_to_cart: start func with cart_id=528, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,383 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,383 INFO marketplace - add_to_cart: start func with cart_id=528, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,383 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,383 INFO marketplace - add_to_cart: start func with cart_id=528, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,383 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,384 INFO marketplace - remove_from_cart: start func with cart_id=528, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,384 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,384 INFO marketplace - place_order: start func with cart_id=528
+2022-04-10 15:24:22,384 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,384 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,385 INFO marketplace - new_cart: exit func with id=529
+2022-04-10 15:24:22,385 INFO marketplace - add_to_cart: start func with cart_id=529, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,385 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,385 INFO marketplace - add_to_cart: start func with cart_id=529, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,385 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,385 INFO marketplace - add_to_cart: start func with cart_id=529, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,386 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,386 INFO marketplace - add_to_cart: start func with cart_id=529, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,386 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,386 INFO marketplace - add_to_cart: start func with cart_id=529, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,386 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,387 INFO marketplace - place_order: start func with cart_id=529
+2022-04-10 15:24:22,387 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,387 INFO marketplace - add_to_cart: start func with cart_id=286, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,387 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,387 INFO marketplace - add_to_cart: start func with cart_id=286, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,387 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,388 INFO marketplace - add_to_cart: start func with cart_id=286, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,388 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,388 INFO marketplace - add_to_cart: start func with cart_id=286, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,388 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,388 INFO marketplace - add_to_cart: start func with cart_id=286, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,388 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,389 INFO marketplace - remove_from_cart: start func with cart_id=286, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,389 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,389 INFO marketplace - remove_from_cart: start func with cart_id=286, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,389 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,389 INFO marketplace - remove_from_cart: start func with cart_id=286, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,390 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,390 INFO marketplace - remove_from_cart: start func with cart_id=286, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,390 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,390 INFO marketplace - remove_from_cart: start func with cart_id=286, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,390 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,391 INFO marketplace - place_order: start func with cart_id=286
+2022-04-10 15:24:22,391 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,391 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,391 INFO marketplace - new_cart: exit func with id=530
+2022-04-10 15:24:22,391 INFO marketplace - add_to_cart: start func with cart_id=530, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,391 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,392 INFO marketplace - publish: start func with producer_id=43, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,392 INFO marketplace - add_to_cart: start func with cart_id=530, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,392 INFO marketplace - publish: exit func ret=False
+2022-04-10 15:24:22,392 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,392 INFO marketplace - add_to_cart: start func with cart_id=530, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,393 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,393 INFO marketplace - add_to_cart: start func with cart_id=530, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,393 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,393 INFO marketplace - remove_from_cart: start func with cart_id=530, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,393 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,393 INFO marketplace - remove_from_cart: start func with cart_id=530, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,394 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,394 INFO marketplace - place_order: start func with cart_id=530
+2022-04-10 15:24:22,394 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,394 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,394 INFO marketplace - new_cart: exit func with id=531
+2022-04-10 15:24:22,395 INFO marketplace - add_to_cart: start func with cart_id=531, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,395 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,395 INFO marketplace - add_to_cart: start func with cart_id=531, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,395 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,395 INFO marketplace - add_to_cart: start func with cart_id=531, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,395 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,396 INFO marketplace - add_to_cart: start func with cart_id=531, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,396 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,396 INFO marketplace - add_to_cart: start func with cart_id=531, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,396 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,396 INFO marketplace - add_to_cart: start func with cart_id=531, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,396 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,397 INFO marketplace - place_order: start func with cart_id=531
+2022-04-10 15:24:22,397 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,397 INFO marketplace - remove_from_cart: start func with cart_id=319, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,397 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,397 INFO marketplace - place_order: start func with cart_id=319
+2022-04-10 15:24:22,398 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,398 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,398 INFO marketplace - new_cart: exit func with id=532
+2022-04-10 15:24:22,398 INFO marketplace - add_to_cart: start func with cart_id=532, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,399 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,399 INFO marketplace - add_to_cart: start func with cart_id=532, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,399 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,399 INFO marketplace - add_to_cart: start func with cart_id=532, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,399 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,399 INFO marketplace - add_to_cart: start func with cart_id=532, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,400 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,400 INFO marketplace - add_to_cart: start func with cart_id=532, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,400 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,400 INFO marketplace - add_to_cart: start func with cart_id=532, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,400 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,400 INFO marketplace - add_to_cart: start func with cart_id=532, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,401 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,401 INFO marketplace - place_order: start func with cart_id=532
+2022-04-10 15:24:22,401 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,401 INFO marketplace - publish: start func with producer_id=2, product=Tea(name='Pai Mu Tan', price=9, type='White')
+2022-04-10 15:24:22,401 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,401 INFO marketplace - publish: exit func ret=True
+2022-04-10 15:24:22,402 INFO marketplace - new_cart: exit func with id=533
+2022-04-10 15:24:22,402 INFO marketplace - add_to_cart: start func with cart_id=533, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,402 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,402 INFO marketplace - add_to_cart: start func with cart_id=533, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,402 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,403 INFO marketplace - add_to_cart: start func with cart_id=533, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,403 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,403 INFO marketplace - add_to_cart: start func with cart_id=533, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,403 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,403 INFO marketplace - add_to_cart: start func with cart_id=533, product=Tea(name='Pai Mu Tan', price=9, type='White')
+2022-04-10 15:24:22,403 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,404 INFO marketplace - add_to_cart: start func with cart_id=533, product=Tea(name='Pai Mu Tan', price=9, type='White')
+2022-04-10 15:24:22,404 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,404 INFO marketplace - add_to_cart: start func with cart_id=533, product=Tea(name='Pai Mu Tan', price=9, type='White')
+2022-04-10 15:24:22,404 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,404 INFO marketplace - add_to_cart: start func with cart_id=533, product=Tea(name='Pai Mu Tan', price=9, type='White')
+2022-04-10 15:24:22,404 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,405 INFO marketplace - place_order: start func with cart_id=533
+2022-04-10 15:24:22,405 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,405 INFO marketplace - remove_from_cart: start func with cart_id=508, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,405 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,405 INFO marketplace - place_order: start func with cart_id=508
+2022-04-10 15:24:22,406 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,406 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,406 INFO marketplace - new_cart: exit func with id=534
+2022-04-10 15:24:22,406 INFO marketplace - add_to_cart: start func with cart_id=534, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,406 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,406 INFO marketplace - add_to_cart: start func with cart_id=534, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:24:22,407 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,407 INFO marketplace - add_to_cart: start func with cart_id=407, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,407 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,407 INFO marketplace - add_to_cart: start func with cart_id=407, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,407 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,407 INFO marketplace - add_to_cart: start func with cart_id=407, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,408 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,408 INFO marketplace - add_to_cart: start func with cart_id=407, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,408 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,408 INFO marketplace - remove_from_cart: start func with cart_id=407, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,408 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,408 INFO marketplace - remove_from_cart: start func with cart_id=407, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,409 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,409 INFO marketplace - remove_from_cart: start func with cart_id=407, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,409 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,409 INFO marketplace - remove_from_cart: start func with cart_id=407, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,409 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,409 INFO marketplace - place_order: start func with cart_id=407
+2022-04-10 15:24:22,410 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,410 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,410 INFO marketplace - new_cart: exit func with id=535
+2022-04-10 15:24:22,410 INFO marketplace - add_to_cart: start func with cart_id=535, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,410 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,411 INFO marketplace - add_to_cart: start func with cart_id=535, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,411 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,411 INFO marketplace - add_to_cart: start func with cart_id=535, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,411 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,411 INFO marketplace - add_to_cart: start func with cart_id=535, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,411 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,412 INFO marketplace - add_to_cart: start func with cart_id=535, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,412 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,412 INFO marketplace - add_to_cart: start func with cart_id=535, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,412 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,412 INFO marketplace - add_to_cart: start func with cart_id=535, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,412 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,412 INFO marketplace - add_to_cart: start func with cart_id=535, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,413 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,413 INFO marketplace - add_to_cart: start func with cart_id=535, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,413 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,413 INFO marketplace - add_to_cart: start func with cart_id=535, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,413 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,413 INFO marketplace - add_to_cart: start func with cart_id=535, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,414 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,414 INFO marketplace - remove_from_cart: start func with cart_id=535, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,414 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,414 INFO marketplace - remove_from_cart: start func with cart_id=535, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,414 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,414 INFO marketplace - remove_from_cart: start func with cart_id=535, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,415 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,415 INFO marketplace - remove_from_cart: start func with cart_id=535, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,415 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,415 INFO marketplace - place_order: start func with cart_id=535
+2022-04-10 15:24:22,415 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,415 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,416 INFO marketplace - new_cart: exit func with id=536
+2022-04-10 15:24:22,416 INFO marketplace - add_to_cart: start func with cart_id=536, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,416 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,416 INFO marketplace - add_to_cart: start func with cart_id=536, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,416 INFO marketplace - publish: start func with producer_id=13, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,416 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,416 INFO marketplace - publish: exit func ret=False
+2022-04-10 15:24:22,417 INFO marketplace - remove_from_cart: start func with cart_id=536, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,417 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,417 INFO marketplace - place_order: start func with cart_id=536
+2022-04-10 15:24:22,417 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,418 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,418 INFO marketplace - new_cart: exit func with id=537
+2022-04-10 15:24:22,418 INFO marketplace - add_to_cart: start func with cart_id=537, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,418 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,418 INFO marketplace - add_to_cart: start func with cart_id=537, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,419 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,419 INFO marketplace - add_to_cart: start func with cart_id=537, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,419 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,419 INFO marketplace - add_to_cart: start func with cart_id=537, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,419 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,419 INFO marketplace - add_to_cart: start func with cart_id=537, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,420 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,420 INFO marketplace - add_to_cart: start func with cart_id=537, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,420 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,420 INFO marketplace - add_to_cart: start func with cart_id=537, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,420 INFO marketplace - publish: start func with producer_id=41, product=Tea(name='Pai Mu Tan', price=9, type='White')
+2022-04-10 15:24:22,420 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,420 INFO marketplace - publish: exit func ret=False
+2022-04-10 15:24:22,421 INFO marketplace - add_to_cart: start func with cart_id=537, product=Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2022-04-10 15:24:22,421 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,421 INFO marketplace - remove_from_cart: start func with cart_id=537, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,421 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,421 INFO marketplace - publish: start func with producer_id=22, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,422 INFO marketplace - remove_from_cart: start func with cart_id=537, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,422 INFO marketplace - publish: exit func ret=False
+2022-04-10 15:24:22,422 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,422 INFO marketplace - place_order: start func with cart_id=537
+2022-04-10 15:24:22,423 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,423 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,423 INFO marketplace - new_cart: exit func with id=538
+2022-04-10 15:24:22,423 INFO marketplace - add_to_cart: start func with cart_id=538, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,423 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,423 INFO marketplace - add_to_cart: start func with cart_id=538, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,424 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,424 INFO marketplace - remove_from_cart: start func with cart_id=538, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,424 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,424 INFO marketplace - place_order: start func with cart_id=538
+2022-04-10 15:24:22,424 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,424 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,425 INFO marketplace - new_cart: exit func with id=539
+2022-04-10 15:24:22,425 INFO marketplace - add_to_cart: start func with cart_id=539, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,425 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,425 INFO marketplace - add_to_cart: start func with cart_id=539, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,425 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,425 INFO marketplace - add_to_cart: start func with cart_id=539, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,426 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,426 INFO marketplace - remove_from_cart: start func with cart_id=539, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,426 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,426 INFO marketplace - place_order: start func with cart_id=539
+2022-04-10 15:24:22,426 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,427 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,427 INFO marketplace - new_cart: exit func with id=540
+2022-04-10 15:24:22,427 INFO marketplace - add_to_cart: start func with cart_id=540, product=Tea(name='Pai Mu Tan', price=9, type='White')
+2022-04-10 15:24:22,427 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,427 INFO marketplace - add_to_cart: start func with cart_id=540, product=Tea(name='Pai Mu Tan', price=9, type='White')
+2022-04-10 15:24:22,427 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,428 INFO marketplace - add_to_cart: start func with cart_id=540, product=Tea(name='Pai Mu Tan', price=9, type='White')
+2022-04-10 15:24:22,428 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,428 INFO marketplace - place_order: start func with cart_id=540
+2022-04-10 15:24:22,428 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,428 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,428 INFO marketplace - new_cart: exit func with id=541
+2022-04-10 15:24:22,429 INFO marketplace - add_to_cart: start func with cart_id=541, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:24:22,429 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,429 INFO marketplace - add_to_cart: start func with cart_id=541, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:24:22,429 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,429 INFO marketplace - publish: start func with producer_id=8, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:24:22,429 INFO marketplace - add_to_cart: start func with cart_id=541, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:24:22,430 INFO marketplace - publish: exit func ret=False
+2022-04-10 15:24:22,430 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,430 INFO marketplace - add_to_cart: start func with cart_id=541, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:24:22,430 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,431 INFO marketplace - place_order: start func with cart_id=541
+2022-04-10 15:24:22,431 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,431 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,431 INFO marketplace - new_cart: exit func with id=542
+2022-04-10 15:24:22,431 INFO marketplace - add_to_cart: start func with cart_id=542, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,431 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,432 INFO marketplace - add_to_cart: start func with cart_id=542, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,432 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,432 INFO marketplace - add_to_cart: start func with cart_id=542, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,432 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,432 INFO marketplace - add_to_cart: start func with cart_id=542, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,432 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,433 INFO marketplace - add_to_cart: start func with cart_id=542, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,433 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,433 INFO marketplace - add_to_cart: start func with cart_id=542, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,433 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,433 INFO marketplace - add_to_cart: start func with cart_id=542, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,433 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,434 INFO marketplace - remove_from_cart: start func with cart_id=542, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,434 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,434 INFO marketplace - publish: start func with producer_id=14, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,434 INFO marketplace - remove_from_cart: start func with cart_id=542, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,434 INFO marketplace - publish: exit func ret=False
+2022-04-10 15:24:22,435 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,435 INFO marketplace - publish: start func with producer_id=40, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,435 INFO marketplace - remove_from_cart: start func with cart_id=542, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,435 INFO marketplace - publish: exit func ret=False
+2022-04-10 15:24:22,435 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,436 INFO marketplace - remove_from_cart: start func with cart_id=542, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,436 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,436 INFO marketplace - place_order: start func with cart_id=542
+2022-04-10 15:24:22,436 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,436 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,437 INFO marketplace - new_cart: exit func with id=543
+2022-04-10 15:24:22,437 INFO marketplace - add_to_cart: start func with cart_id=543, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,437 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,437 INFO marketplace - add_to_cart: start func with cart_id=543, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,437 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,437 INFO marketplace - add_to_cart: start func with cart_id=543, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,438 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,438 INFO marketplace - add_to_cart: start func with cart_id=543, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,438 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,438 INFO marketplace - remove_from_cart: start func with cart_id=543, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,438 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,439 INFO marketplace - remove_from_cart: start func with cart_id=543, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,439 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,439 INFO marketplace - place_order: start func with cart_id=543
+2022-04-10 15:24:22,439 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,439 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,439 INFO marketplace - new_cart: exit func with id=544
+2022-04-10 15:24:22,440 INFO marketplace - add_to_cart: start func with cart_id=544, product=Tea(name='Pai Mu Tan', price=9, type='White')
+2022-04-10 15:24:22,440 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,440 INFO marketplace - add_to_cart: start func with cart_id=544, product=Tea(name='Pai Mu Tan', price=9, type='White')
+2022-04-10 15:24:22,440 INFO marketplace - publish: start func with producer_id=6, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:24:22,440 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,440 INFO marketplace - publish: exit func ret=True
+2022-04-10 15:24:22,441 INFO marketplace - add_to_cart: start func with cart_id=544, product=Tea(name='Pai Mu Tan', price=9, type='White')
+2022-04-10 15:24:22,441 INFO marketplace - publish: start func with producer_id=1, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,441 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,441 INFO marketplace - publish: exit func ret=True
+2022-04-10 15:24:22,441 INFO marketplace - add_to_cart: start func with cart_id=544, product=Tea(name='Pai Mu Tan', price=9, type='White')
+2022-04-10 15:24:22,442 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,442 INFO marketplace - add_to_cart: start func with cart_id=544, product=Tea(name='Pai Mu Tan', price=9, type='White')
+2022-04-10 15:24:22,442 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,442 INFO marketplace - remove_from_cart: start func with cart_id=544, product=Tea(name='Pai Mu Tan', price=9, type='White')
+2022-04-10 15:24:22,443 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,443 INFO marketplace - remove_from_cart: start func with cart_id=544, product=Tea(name='Pai Mu Tan', price=9, type='White')
+2022-04-10 15:24:22,443 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,443 INFO marketplace - remove_from_cart: start func with cart_id=544, product=Tea(name='Pai Mu Tan', price=9, type='White')
+2022-04-10 15:24:22,443 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,443 INFO marketplace - publish: start func with producer_id=25, product=Tea(name='Pai Mu Tan', price=9, type='White')
+2022-04-10 15:24:22,444 INFO marketplace - remove_from_cart: start func with cart_id=544, product=Tea(name='Pai Mu Tan', price=9, type='White')
+2022-04-10 15:24:22,444 INFO marketplace - publish: exit func ret=False
+2022-04-10 15:24:22,444 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,444 INFO marketplace - place_order: start func with cart_id=544
+2022-04-10 15:24:22,445 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,445 INFO marketplace - place_order: start func with cart_id=315
+2022-04-10 15:24:22,445 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,445 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,445 INFO marketplace - new_cart: exit func with id=545
+2022-04-10 15:24:22,445 INFO marketplace - add_to_cart: start func with cart_id=545, product=Tea(name='Pai Mu Tan', price=9, type='White')
+2022-04-10 15:24:22,446 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,446 INFO marketplace - add_to_cart: start func with cart_id=545, product=Tea(name='Pai Mu Tan', price=9, type='White')
+2022-04-10 15:24:22,446 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,446 INFO marketplace - add_to_cart: start func with cart_id=545, product=Tea(name='Pai Mu Tan', price=9, type='White')
+2022-04-10 15:24:22,446 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,446 INFO marketplace - add_to_cart: start func with cart_id=545, product=Tea(name='Pai Mu Tan', price=9, type='White')
+2022-04-10 15:24:22,447 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,447 INFO marketplace - add_to_cart: start func with cart_id=545, product=Tea(name='Pai Mu Tan', price=9, type='White')
+2022-04-10 15:24:22,447 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,447 INFO marketplace - add_to_cart: start func with cart_id=545, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,447 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,448 INFO marketplace - place_order: start func with cart_id=545
+2022-04-10 15:24:22,448 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,448 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,448 INFO marketplace - new_cart: exit func with id=546
+2022-04-10 15:24:22,448 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,449 INFO marketplace - new_cart: exit func with id=547
+2022-04-10 15:24:22,449 INFO marketplace - add_to_cart: start func with cart_id=547, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,449 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,449 INFO marketplace - add_to_cart: start func with cart_id=547, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,449 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,449 INFO marketplace - add_to_cart: start func with cart_id=547, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,450 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,450 INFO marketplace - add_to_cart: start func with cart_id=547, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,450 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,450 INFO marketplace - add_to_cart: start func with cart_id=547, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,450 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,450 INFO marketplace - add_to_cart: start func with cart_id=547, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,451 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,451 INFO marketplace - add_to_cart: start func with cart_id=547, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,451 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,451 INFO marketplace - add_to_cart: start func with cart_id=547, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,451 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,451 INFO marketplace - add_to_cart: start func with cart_id=547, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,452 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,452 INFO marketplace - add_to_cart: start func with cart_id=547, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,452 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,452 INFO marketplace - place_order: start func with cart_id=547
+2022-04-10 15:24:22,452 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,452 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,453 INFO marketplace - new_cart: exit func with id=548
+2022-04-10 15:24:22,453 INFO marketplace - add_to_cart: start func with cart_id=548, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,453 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,453 INFO marketplace - remove_from_cart: start func with cart_id=548, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,453 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,453 INFO marketplace - place_order: start func with cart_id=548
+2022-04-10 15:24:22,454 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,454 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,454 INFO marketplace - new_cart: exit func with id=549
+2022-04-10 15:24:22,454 INFO marketplace - add_to_cart: start func with cart_id=549, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,454 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,454 INFO marketplace - remove_from_cart: start func with cart_id=549, product=Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2022-04-10 15:24:22,455 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,455 INFO marketplace - place_order: start func with cart_id=549
+2022-04-10 15:24:22,455 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,455 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,455 INFO marketplace - new_cart: exit func with id=550
+2022-04-10 15:24:22,456 INFO marketplace - add_to_cart: start func with cart_id=550, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,456 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,456 INFO marketplace - add_to_cart: start func with cart_id=550, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,456 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,456 INFO marketplace - add_to_cart: start func with cart_id=550, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,456 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,457 INFO marketplace - add_to_cart: start func with cart_id=550, product=Tea(name='English Breakfast', price=2, type='Black')
+2022-04-10 15:24:22,457 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,457 INFO marketplace - place_order: start func with cart_id=550
+2022-04-10 15:24:22,457 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,457 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,457 INFO marketplace - new_cart: exit func with id=551
+2022-04-10 15:24:22,458 INFO marketplace - add_to_cart: start func with cart_id=551, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,458 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,458 INFO marketplace - add_to_cart: start func with cart_id=551, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,458 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,458 INFO marketplace - add_to_cart: start func with cart_id=551, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,459 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,459 INFO marketplace - add_to_cart: start func with cart_id=551, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,459 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,459 INFO marketplace - add_to_cart: start func with cart_id=551, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,459 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,460 INFO marketplace - add_to_cart: start func with cart_id=551, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,460 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,460 INFO marketplace - add_to_cart: start func with cart_id=551, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,460 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,460 INFO marketplace - add_to_cart: start func with cart_id=551, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,460 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,461 INFO marketplace - place_order: start func with cart_id=551
+2022-04-10 15:24:22,461 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,461 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,461 INFO marketplace - publish: start func with producer_id=11, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,461 INFO marketplace - new_cart: exit func with id=552
+2022-04-10 15:24:22,461 INFO marketplace - publish: exit func ret=False
+2022-04-10 15:24:22,462 INFO marketplace - add_to_cart: start func with cart_id=552, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,462 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,462 INFO marketplace - add_to_cart: start func with cart_id=552, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,462 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,462 INFO marketplace - add_to_cart: start func with cart_id=552, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,463 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,463 INFO marketplace - add_to_cart: start func with cart_id=552, product=Tea(name='Jasmine', price=6, type='Green')
+2022-04-10 15:24:22,463 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,463 INFO marketplace - add_to_cart: start func with cart_id=552, product=Tea(name='Pai Mu Tan', price=9, type='White')
+2022-04-10 15:24:22,463 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,463 INFO marketplace - place_order: start func with cart_id=552
+2022-04-10 15:24:22,464 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,464 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,464 INFO marketplace - new_cart: exit func with id=553
+2022-04-10 15:24:22,464 INFO marketplace - add_to_cart: start func with cart_id=553, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,464 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,464 INFO marketplace - add_to_cart: start func with cart_id=553, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,465 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,465 INFO marketplace - add_to_cart: start func with cart_id=553, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,465 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,465 INFO marketplace - add_to_cart: start func with cart_id=553, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,465 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,465 INFO marketplace - add_to_cart: start func with cart_id=553, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:24:22,466 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,466 INFO marketplace - publish: start func with producer_id=28, product=Tea(name='White Peach', price=5, type='White')
+2022-04-10 15:24:22,466 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,466 INFO marketplace - publish: exit func ret=False
+2022-04-10 15:24:22,466 INFO marketplace - new_cart: exit func with id=554
+2022-04-10 15:24:22,467 INFO marketplace - add_to_cart: start func with cart_id=554, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,467 INFO marketplace - add_to_cart: exit func with ret=True
+2022-04-10 15:24:22,467 INFO marketplace - remove_from_cart: start func with cart_id=554, product=Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2022-04-10 15:24:22,467 INFO marketplace - remove_from_cart: exit func
+2022-04-10 15:24:22,467 INFO marketplace - place_order: start func with cart_id=554
+2022-04-10 15:24:22,468 INFO marketplace - place_order: exit func
+2022-04-10 15:24:22,468 INFO marketplace - new_cart: start func
+2022-04-10 15:24:22,468 INFO marketplace - new_cart: exit func with id=555
+2022-04-10 15:24:22,468 INFO marketplace - add_to_cart: start func with cart_id=555, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')

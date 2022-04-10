@@ -1,0 +1,1016 @@
+2022-04-10 15:27:18,458 INFO  - add_to_cart: start func with cart_id=92, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:18,485 INFO  - publish: start func with producer_id=8, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:18,507 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,507 INFO  - publish: exit func ret=True
+2022-04-10 15:27:18,507 INFO  - add_to_cart: start func with cart_id=92, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:18,508 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,508 INFO  - add_to_cart: start func with cart_id=92, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:18,508 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,509 INFO  - remove_from_cart: start func with cart_id=92, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:18,509 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:18,509 INFO  - place_order: start func with cart_id=92 and returned
+2022-04-10 15:27:18,509 INFO  - new_cart: start func
+2022-04-10 15:27:18,509 INFO  - new_cart: exit func with id=93
+2022-04-10 15:27:18,509 INFO  - add_to_cart: start func with cart_id=93, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,510 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,510 INFO  - add_to_cart: start func with cart_id=93, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,510 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,510 INFO  - add_to_cart: start func with cart_id=93, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:18,510 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,510 INFO  - add_to_cart: start func with cart_id=93, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:18,510 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,511 INFO  - remove_from_cart: start func with cart_id=93, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:18,511 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:18,511 INFO  - place_order: start func with cart_id=93 and returned
+2022-04-10 15:27:18,511 INFO  - new_cart: start func
+2022-04-10 15:27:18,511 INFO  - new_cart: exit func with id=94
+2022-04-10 15:27:18,511 INFO  - add_to_cart: start func with cart_id=94, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,512 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,512 INFO  - add_to_cart: start func with cart_id=94, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,512 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,512 INFO  - remove_from_cart: start func with cart_id=94, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,512 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:18,513 INFO  - place_order: start func with cart_id=94 and returned
+2022-04-10 15:27:18,513 INFO  - new_cart: start func
+2022-04-10 15:27:18,513 INFO  - new_cart: exit func with id=95
+2022-04-10 15:27:18,513 INFO  - add_to_cart: start func with cart_id=95, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:18,513 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,513 INFO  - add_to_cart: start func with cart_id=95, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:18,514 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,514 INFO  - add_to_cart: start func with cart_id=95, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,514 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,514 INFO  - add_to_cart: start func with cart_id=95, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,514 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,514 INFO  - place_order: start func with cart_id=95 and returned
+2022-04-10 15:27:18,515 INFO  - new_cart: start func
+2022-04-10 15:27:18,515 INFO  - new_cart: exit func with id=96
+2022-04-10 15:27:18,515 INFO  - add_to_cart: start func with cart_id=96, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:18,515 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,515 INFO  - add_to_cart: start func with cart_id=96, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:18,515 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,516 INFO  - place_order: start func with cart_id=96 and returned
+2022-04-10 15:27:18,516 INFO  - new_cart: start func
+2022-04-10 15:27:18,516 INFO  - new_cart: exit func with id=97
+2022-04-10 15:27:18,516 INFO  - add_to_cart: start func with cart_id=97, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:18,516 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,517 INFO  - add_to_cart: start func with cart_id=97, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:18,517 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,517 INFO  - remove_from_cart: start func with cart_id=97, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:18,517 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:18,517 INFO  - place_order: start func with cart_id=97 and returned
+2022-04-10 15:27:18,518 INFO  - new_cart: start func
+2022-04-10 15:27:18,518 INFO  - new_cart: exit func with id=98
+2022-04-10 15:27:18,518 INFO  - add_to_cart: start func with cart_id=98, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:18,518 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,518 INFO  - add_to_cart: start func with cart_id=98, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:18,518 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,519 INFO  - add_to_cart: start func with cart_id=98, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:18,519 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,519 INFO  - place_order: start func with cart_id=98 and returned
+2022-04-10 15:27:18,519 INFO  - new_cart: start func
+2022-04-10 15:27:18,519 INFO  - new_cart: exit func with id=99
+2022-04-10 15:27:18,519 INFO  - add_to_cart: start func with cart_id=99, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:18,520 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,520 INFO  - add_to_cart: start func with cart_id=99, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,520 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,520 INFO  - add_to_cart: start func with cart_id=99, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,520 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,520 INFO  - add_to_cart: start func with cart_id=99, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,520 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,521 INFO  - add_to_cart: start func with cart_id=99, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:18,521 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,521 INFO  - add_to_cart: start func with cart_id=99, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:18,521 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,521 INFO  - remove_from_cart: start func with cart_id=99, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:18,521 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:18,522 INFO  - place_order: start func with cart_id=99 and returned
+2022-04-10 15:27:18,522 INFO  - new_cart: start func
+2022-04-10 15:27:18,522 INFO  - new_cart: exit func with id=100
+2022-04-10 15:27:18,522 INFO  - add_to_cart: start func with cart_id=100, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:18,522 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,522 INFO  - add_to_cart: start func with cart_id=100, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,523 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,523 INFO  - add_to_cart: start func with cart_id=100, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,523 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,523 INFO  - add_to_cart: start func with cart_id=100, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,523 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,523 INFO  - place_order: start func with cart_id=100 and returned
+2022-04-10 15:27:18,524 INFO  - new_cart: start func
+2022-04-10 15:27:18,524 INFO  - new_cart: exit func with id=101
+2022-04-10 15:27:18,524 INFO  - add_to_cart: start func with cart_id=101, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:18,524 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,524 INFO  - add_to_cart: start func with cart_id=101, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:18,524 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,524 INFO  - add_to_cart: start func with cart_id=101, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:18,525 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,525 INFO  - place_order: start func with cart_id=101 and returned
+2022-04-10 15:27:18,525 INFO  - new_cart: start func
+2022-04-10 15:27:18,525 INFO  - new_cart: exit func with id=102
+2022-04-10 15:27:18,525 INFO  - add_to_cart: start func with cart_id=102, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,526 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,526 INFO  - place_order: start func with cart_id=102 and returned
+2022-04-10 15:27:18,526 INFO  - new_cart: start func
+2022-04-10 15:27:18,526 INFO  - new_cart: exit func with id=103
+2022-04-10 15:27:18,526 INFO  - add_to_cart: start func with cart_id=103, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,526 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,527 INFO  - add_to_cart: start func with cart_id=103, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,527 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,527 INFO  - add_to_cart: start func with cart_id=103, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,527 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,527 INFO  - add_to_cart: start func with cart_id=103, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,528 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,528 INFO  - add_to_cart: start func with cart_id=103, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,528 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,528 INFO  - add_to_cart: start func with cart_id=103, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:18,528 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,528 INFO  - place_order: start func with cart_id=103 and returned
+2022-04-10 15:27:18,529 INFO  - new_cart: start func
+2022-04-10 15:27:18,529 INFO  - new_cart: exit func with id=104
+2022-04-10 15:27:18,529 INFO  - add_to_cart: start func with cart_id=104, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,529 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,529 INFO  - remove_from_cart: start func with cart_id=104, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,529 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:18,529 INFO  - place_order: start func with cart_id=104 and returned
+2022-04-10 15:27:18,530 INFO  - new_cart: start func
+2022-04-10 15:27:18,530 INFO  - new_cart: exit func with id=105
+2022-04-10 15:27:18,530 INFO  - add_to_cart: start func with cart_id=105, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,530 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,530 INFO  - add_to_cart: start func with cart_id=105, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:18,530 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,531 INFO  - remove_from_cart: start func with cart_id=105, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,531 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:18,531 INFO  - place_order: start func with cart_id=105 and returned
+2022-04-10 15:27:18,531 INFO  - new_cart: start func
+2022-04-10 15:27:18,531 INFO  - new_cart: exit func with id=106
+2022-04-10 15:27:18,532 INFO  - add_to_cart: start func with cart_id=106, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,532 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,532 INFO  - add_to_cart: start func with cart_id=106, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,532 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,532 INFO  - place_order: start func with cart_id=106 and returned
+2022-04-10 15:27:18,532 INFO  - new_cart: start func
+2022-04-10 15:27:18,533 INFO  - new_cart: exit func with id=107
+2022-04-10 15:27:18,533 INFO  - add_to_cart: start func with cart_id=107, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,533 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,533 INFO  - add_to_cart: start func with cart_id=107, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,533 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,533 INFO  - add_to_cart: start func with cart_id=107, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,534 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,534 INFO  - add_to_cart: start func with cart_id=107, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,534 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,534 INFO  - add_to_cart: start func with cart_id=107, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,534 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,534 INFO  - add_to_cart: start func with cart_id=107, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,534 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,535 INFO  - add_to_cart: start func with cart_id=107, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,535 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,535 INFO  - add_to_cart: start func with cart_id=107, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,535 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,535 INFO  - add_to_cart: start func with cart_id=107, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,535 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,536 INFO  - add_to_cart: start func with cart_id=107, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,536 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,536 INFO  - place_order: start func with cart_id=107 and returned
+2022-04-10 15:27:18,536 INFO  - new_cart: start func
+2022-04-10 15:27:18,536 INFO  - new_cart: exit func with id=108
+2022-04-10 15:27:18,537 INFO  - add_to_cart: start func with cart_id=108, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,537 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,537 INFO  - add_to_cart: start func with cart_id=108, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,537 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,537 INFO  - add_to_cart: start func with cart_id=108, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,538 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,538 INFO  - remove_from_cart: start func with cart_id=108, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,538 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:18,538 INFO  - place_order: start func with cart_id=108 and returned
+2022-04-10 15:27:18,538 INFO  - new_cart: start func
+2022-04-10 15:27:18,538 INFO  - new_cart: exit func with id=109
+2022-04-10 15:27:18,539 INFO  - add_to_cart: start func with cart_id=109, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,539 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,539 INFO  - add_to_cart: start func with cart_id=109, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,539 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,539 INFO  - add_to_cart: start func with cart_id=109, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,539 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,539 INFO  - add_to_cart: start func with cart_id=109, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,540 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,540 INFO  - add_to_cart: start func with cart_id=109, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,540 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,540 INFO  - add_to_cart: start func with cart_id=109, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:18,540 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 15:27:18,547 INFO  - publish: start func with producer_id=4, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,548 INFO  - publish: exit func ret=True
+2022-04-10 15:27:18,548 INFO  - publish: start func with producer_id=2, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:18,548 INFO  - publish: exit func ret=True
+2022-04-10 15:27:18,596 INFO  - publish: start func with producer_id=6, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:18,596 INFO  - publish: exit func ret=True
+2022-04-10 15:27:18,629 INFO  - publish: start func with producer_id=3, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:18,629 INFO  - publish: exit func ret=True
+2022-04-10 15:27:18,667 INFO  - publish: start func with producer_id=5, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:18,669 INFO  - publish: exit func ret=False
+2022-04-10 15:27:18,674 INFO  - publish: start func with producer_id=1, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,675 INFO  - publish: exit func ret=True
+2022-04-10 15:27:18,747 INFO  - publish: start func with producer_id=6, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:18,748 INFO  - publish: exit func ret=True
+2022-04-10 15:27:18,749 INFO  - publish: start func with producer_id=2, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:18,751 INFO  - publish: exit func ret=True
+2022-04-10 15:27:18,770 INFO  - publish: start func with producer_id=7, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,772 INFO  - publish: exit func ret=False
+2022-04-10 15:27:18,778 INFO  - publish: start func with producer_id=0, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:18,779 INFO  - publish: exit func ret=True
+2022-04-10 15:27:18,791 INFO  - add_to_cart: start func with cart_id=109, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:18,791 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:18,792 INFO  - add_to_cart: start func with cart_id=109, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:18,793 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 15:27:18,798 INFO  - publish: start func with producer_id=8, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:18,799 INFO  - publish: exit func ret=True
+2022-04-10 15:27:18,900 INFO  - publish: start func with producer_id=6, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:18,901 INFO  - publish: exit func ret=False
+2022-04-10 15:27:18,927 INFO  - publish: start func with producer_id=1, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,927 INFO  - publish: exit func ret=True
+2022-04-10 15:27:18,949 INFO  - publish: start func with producer_id=4, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,950 INFO  - publish: exit func ret=True
+2022-04-10 15:27:18,952 INFO  - publish: start func with producer_id=2, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:18,954 INFO  - publish: exit func ret=True
+2022-04-10 15:27:18,960 INFO  - publish: start func with producer_id=3, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:18,961 INFO  - publish: exit func ret=True
+2022-04-10 15:27:19,044 INFO  - add_to_cart: start func with cart_id=109, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:19,044 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,045 INFO  - place_order: start func with cart_id=109 and returned
+2022-04-10 15:27:19,045 INFO  - new_cart: start func
+2022-04-10 15:27:19,046 INFO  - new_cart: exit func with id=110
+2022-04-10 15:27:19,046 INFO  - add_to_cart: start func with cart_id=110, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,047 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,047 INFO  - add_to_cart: start func with cart_id=110, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,048 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,048 INFO  - add_to_cart: start func with cart_id=110, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,049 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,049 INFO  - add_to_cart: start func with cart_id=110, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,049 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,049 INFO  - add_to_cart: start func with cart_id=110, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,049 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,050 INFO  - add_to_cart: start func with cart_id=110, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:19,050 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,050 INFO  - add_to_cart: start func with cart_id=110, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:19,050 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,050 INFO  - remove_from_cart: start func with cart_id=110, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:19,051 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:19,051 INFO  - place_order: start func with cart_id=110 and returned
+2022-04-10 15:27:19,051 INFO  - new_cart: start func
+2022-04-10 15:27:19,051 INFO  - new_cart: exit func with id=111
+2022-04-10 15:27:19,052 INFO  - add_to_cart: start func with cart_id=111, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,052 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,052 INFO  - add_to_cart: start func with cart_id=111, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,052 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,053 INFO  - add_to_cart: start func with cart_id=111, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,053 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,053 INFO  - add_to_cart: start func with cart_id=111, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,053 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,054 INFO  - add_to_cart: start func with cart_id=111, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,054 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,054 INFO  - add_to_cart: start func with cart_id=111, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,054 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,054 INFO  - remove_from_cart: start func with cart_id=111, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,055 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:19,055 INFO  - remove_from_cart: start func with cart_id=111, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,055 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:19,055 INFO  - place_order: start func with cart_id=111 and returned
+2022-04-10 15:27:19,056 INFO  - new_cart: start func
+2022-04-10 15:27:19,056 INFO  - new_cart: exit func with id=112
+2022-04-10 15:27:19,056 INFO  - add_to_cart: start func with cart_id=112, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,056 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,057 INFO  - add_to_cart: start func with cart_id=112, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,057 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,057 INFO  - add_to_cart: start func with cart_id=112, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,057 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,057 INFO  - add_to_cart: start func with cart_id=112, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,058 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,058 INFO  - add_to_cart: start func with cart_id=112, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,058 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,058 INFO  - add_to_cart: start func with cart_id=112, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,059 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,059 INFO  - add_to_cart: start func with cart_id=112, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,059 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,059 INFO  - add_to_cart: start func with cart_id=112, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,059 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,059 INFO  - add_to_cart: start func with cart_id=112, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,060 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,060 INFO  - place_order: start func with cart_id=112 and returned
+2022-04-10 15:27:19,060 INFO  - new_cart: start func
+2022-04-10 15:27:19,060 INFO  - new_cart: exit func with id=113
+2022-04-10 15:27:19,060 INFO  - new_cart: start func
+2022-04-10 15:27:19,060 INFO  - publish: start func with producer_id=5, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,061 INFO  - new_cart: exit func with id=114
+2022-04-10 15:27:19,061 INFO  - publish: exit func ret=False
+2022-04-10 15:27:19,061 INFO  - add_to_cart: start func with cart_id=114, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,061 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,061 INFO  - add_to_cart: start func with cart_id=114, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,062 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,062 INFO  - add_to_cart: start func with cart_id=114, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,062 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,062 INFO  - add_to_cart: start func with cart_id=114, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,062 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,062 INFO  - add_to_cart: start func with cart_id=114, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,062 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,063 INFO  - add_to_cart: start func with cart_id=114, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,063 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,063 INFO  - remove_from_cart: start func with cart_id=114, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,063 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:19,063 INFO  - remove_from_cart: start func with cart_id=114, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,063 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:19,064 INFO  - remove_from_cart: start func with cart_id=114, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,064 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:19,064 INFO  - remove_from_cart: start func with cart_id=114, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,064 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:19,064 INFO  - remove_from_cart: start func with cart_id=114, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,064 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:19,064 INFO  - place_order: start func with cart_id=114 and returned
+2022-04-10 15:27:19,065 INFO  - new_cart: start func
+2022-04-10 15:27:19,065 INFO  - new_cart: exit func with id=115
+2022-04-10 15:27:19,065 INFO  - add_to_cart: start func with cart_id=115, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:19,065 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,065 INFO  - add_to_cart: start func with cart_id=115, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:19,065 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,066 INFO  - add_to_cart: start func with cart_id=115, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:19,066 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,066 INFO  - add_to_cart: start func with cart_id=115, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,066 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,066 INFO  - add_to_cart: start func with cart_id=115, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,066 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,067 INFO  - add_to_cart: start func with cart_id=115, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,067 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,067 INFO  - add_to_cart: start func with cart_id=115, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,067 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,067 INFO  - remove_from_cart: start func with cart_id=115, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,067 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:19,068 INFO  - remove_from_cart: start func with cart_id=115, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,068 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:19,068 INFO  - place_order: start func with cart_id=115 and returned
+2022-04-10 15:27:19,068 INFO  - new_cart: start func
+2022-04-10 15:27:19,068 INFO  - new_cart: exit func with id=116
+2022-04-10 15:27:19,069 INFO  - add_to_cart: start func with cart_id=116, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:19,069 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,069 INFO  - add_to_cart: start func with cart_id=116, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:19,069 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 15:27:19,090 INFO  - publish: start func with producer_id=8, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,091 INFO  - publish: exit func ret=True
+2022-04-10 15:27:19,095 INFO  - publish: start func with producer_id=2, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,096 INFO  - publish: exit func ret=True
+2022-04-10 15:27:19,103 INFO  - publish: start func with producer_id=7, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,104 INFO  - publish: exit func ret=False
+2022-04-10 15:27:19,123 INFO  - publish: start func with producer_id=3, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:19,123 INFO  - publish: exit func ret=True
+2022-04-10 15:27:19,160 INFO  - add_to_cart: start func with cart_id=116, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:19,161 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,162 INFO  - add_to_cart: start func with cart_id=116, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:19,162 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 15:27:19,170 INFO  - publish: start func with producer_id=0, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:19,171 INFO  - publish: exit func ret=True
+2022-04-10 15:27:19,179 INFO  - publish: start func with producer_id=1, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,180 INFO  - publish: exit func ret=True
+2022-04-10 15:27:19,192 INFO  - publish: start func with producer_id=6, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,193 INFO  - publish: exit func ret=False
+2022-04-10 15:27:19,237 INFO  - publish: start func with producer_id=2, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,238 INFO  - publish: exit func ret=True
+2022-04-10 15:27:19,253 INFO  - add_to_cart: start func with cart_id=116, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:19,254 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,255 INFO  - add_to_cart: start func with cart_id=116, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,256 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,256 INFO  - add_to_cart: start func with cart_id=116, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,257 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,258 INFO  - add_to_cart: start func with cart_id=116, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,258 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,259 INFO  - add_to_cart: start func with cart_id=116, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:19,260 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,260 INFO  - place_order: start func with cart_id=116 and returned
+2022-04-10 15:27:19,261 INFO  - new_cart: start func
+2022-04-10 15:27:19,262 INFO  - new_cart: exit func with id=117
+2022-04-10 15:27:19,262 INFO  - add_to_cart: start func with cart_id=117, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,263 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,264 INFO  - add_to_cart: start func with cart_id=117, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,264 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,265 INFO  - add_to_cart: start func with cart_id=117, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,266 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,266 INFO  - add_to_cart: start func with cart_id=117, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,267 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,268 INFO  - add_to_cart: start func with cart_id=117, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,268 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,269 INFO  - add_to_cart: start func with cart_id=117, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:19,270 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,270 INFO  - add_to_cart: start func with cart_id=117, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:19,271 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,272 INFO  - add_to_cart: start func with cart_id=117, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:19,272 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,273 INFO  - remove_from_cart: start func with cart_id=117, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:19,274 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:19,274 INFO  - place_order: start func with cart_id=117 and returned
+2022-04-10 15:27:19,275 INFO  - add_to_cart: start func with cart_id=17, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:19,276 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,277 INFO  - add_to_cart: start func with cart_id=17, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:19,277 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,278 INFO  - add_to_cart: start func with cart_id=17, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:19,278 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 15:27:19,284 INFO  - publish: start func with producer_id=3, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:19,285 INFO  - publish: exit func ret=True
+2022-04-10 15:27:19,352 INFO  - publish: start func with producer_id=4, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,353 INFO  - publish: exit func ret=True
+2022-04-10 15:27:19,379 INFO  - publish: start func with producer_id=2, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,380 INFO  - publish: exit func ret=True
+2022-04-10 15:27:19,431 INFO  - publish: start func with producer_id=1, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,432 INFO  - publish: exit func ret=True
+2022-04-10 15:27:19,435 INFO  - publish: start func with producer_id=7, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,436 INFO  - publish: exit func ret=False
+2022-04-10 15:27:19,446 INFO  - publish: start func with producer_id=3, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:19,447 INFO  - publish: exit func ret=True
+2022-04-10 15:27:19,452 INFO  - publish: start func with producer_id=8, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:19,452 INFO  - publish: start func with producer_id=5, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,453 INFO  - publish: exit func ret=True
+2022-04-10 15:27:19,454 INFO  - publish: exit func ret=False
+2022-04-10 15:27:19,484 INFO  - publish: start func with producer_id=6, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,485 INFO  - publish: exit func ret=False
+2022-04-10 15:27:19,562 INFO  - publish: start func with producer_id=0, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,563 INFO  - publish: exit func ret=True
+2022-04-10 15:27:19,568 INFO  - publish: start func with producer_id=3, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,568 INFO  - publish: exit func ret=True
+2022-04-10 15:27:19,630 INFO  - add_to_cart: start func with cart_id=17, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:19,630 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,630 INFO  - remove_from_cart: start func with cart_id=17, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:19,631 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:19,631 INFO  - place_order: start func with cart_id=17 and returned
+2022-04-10 15:27:19,631 INFO  - new_cart: start func
+2022-04-10 15:27:19,631 INFO  - new_cart: exit func with id=118
+2022-04-10 15:27:19,631 INFO  - add_to_cart: start func with cart_id=118, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:19,632 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,632 INFO  - add_to_cart: start func with cart_id=118, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:19,632 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,632 INFO  - add_to_cart: start func with cart_id=118, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:19,632 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,633 INFO  - remove_from_cart: start func with cart_id=118, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:19,633 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:19,633 INFO  - remove_from_cart: start func with cart_id=118, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:19,633 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:19,634 INFO  - remove_from_cart: start func with cart_id=118, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:19,634 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:19,634 INFO  - place_order: start func with cart_id=118 and returned
+2022-04-10 15:27:19,634 INFO  - new_cart: start func
+2022-04-10 15:27:19,634 INFO  - new_cart: exit func with id=119
+2022-04-10 15:27:19,635 INFO  - new_cart: start func
+2022-04-10 15:27:19,635 INFO  - new_cart: exit func with id=120
+2022-04-10 15:27:19,635 INFO  - add_to_cart: start func with cart_id=120, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,635 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,635 INFO  - add_to_cart: start func with cart_id=120, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,636 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,636 INFO  - place_order: start func with cart_id=120 and returned
+2022-04-10 15:27:19,636 INFO  - new_cart: start func
+2022-04-10 15:27:19,637 INFO  - new_cart: exit func with id=121
+2022-04-10 15:27:19,637 INFO  - add_to_cart: start func with cart_id=121, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,637 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,638 INFO  - add_to_cart: start func with cart_id=121, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,638 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,638 INFO  - add_to_cart: start func with cart_id=121, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:19,638 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,639 INFO  - add_to_cart: start func with cart_id=121, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:19,639 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,639 INFO  - add_to_cart: start func with cart_id=121, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:19,639 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,640 INFO  - add_to_cart: start func with cart_id=121, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,640 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,640 INFO  - remove_from_cart: start func with cart_id=121, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,640 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:19,641 INFO  - place_order: start func with cart_id=121 and returned
+2022-04-10 15:27:19,641 INFO  - new_cart: start func
+2022-04-10 15:27:19,641 INFO  - new_cart: exit func with id=122
+2022-04-10 15:27:19,641 INFO  - add_to_cart: start func with cart_id=122, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,642 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,642 INFO  - add_to_cart: start func with cart_id=122, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,642 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,642 INFO  - add_to_cart: start func with cart_id=122, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,643 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,643 INFO  - add_to_cart: start func with cart_id=122, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:19,643 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,643 INFO  - add_to_cart: start func with cart_id=122, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:19,643 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,644 INFO  - add_to_cart: start func with cart_id=122, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:19,644 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,644 INFO  - add_to_cart: start func with cart_id=122, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:19,644 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,645 INFO  - remove_from_cart: start func with cart_id=122, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,645 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:19,645 INFO  - remove_from_cart: start func with cart_id=122, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,645 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:19,645 INFO  - place_order: start func with cart_id=122 and returned
+2022-04-10 15:27:19,646 INFO  - new_cart: start func
+2022-04-10 15:27:19,646 INFO  - new_cart: exit func with id=123
+2022-04-10 15:27:19,646 INFO  - add_to_cart: start func with cart_id=123, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,646 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,647 INFO  - add_to_cart: start func with cart_id=123, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,647 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,647 INFO  - add_to_cart: start func with cart_id=123, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,647 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,647 INFO  - add_to_cart: start func with cart_id=123, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,648 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,648 INFO  - remove_from_cart: start func with cart_id=123, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,648 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:19,648 INFO  - remove_from_cart: start func with cart_id=123, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,648 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:19,649 INFO  - remove_from_cart: start func with cart_id=123, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,649 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:19,649 INFO  - place_order: start func with cart_id=123 and returned
+2022-04-10 15:27:19,649 INFO  - new_cart: start func
+2022-04-10 15:27:19,649 INFO  - new_cart: exit func with id=124
+2022-04-10 15:27:19,650 INFO  - add_to_cart: start func with cart_id=124, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:19,650 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 15:27:19,683 INFO  - publish: start func with producer_id=1, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,683 INFO  - publish: exit func ret=True
+2022-04-10 15:27:19,698 INFO  - publish: start func with producer_id=3, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,699 INFO  - publish: exit func ret=True
+2022-04-10 15:27:19,730 INFO  - add_to_cart: start func with cart_id=124, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:19,731 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 15:27:19,745 INFO  - publish: start func with producer_id=8, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:19,746 INFO  - publish: exit func ret=True
+2022-04-10 15:27:19,751 INFO  - publish: start func with producer_id=2, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,751 INFO  - publish: exit func ret=True
+2022-04-10 15:27:19,754 INFO  - publish: start func with producer_id=4, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,755 INFO  - publish: exit func ret=True
+2022-04-10 15:27:19,767 INFO  - publish: start func with producer_id=7, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,768 INFO  - publish: exit func ret=False
+2022-04-10 15:27:19,775 INFO  - publish: start func with producer_id=6, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,776 INFO  - publish: exit func ret=False
+2022-04-10 15:27:19,811 INFO  - add_to_cart: start func with cart_id=124, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:19,812 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:19,812 INFO  - add_to_cart: start func with cart_id=124, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:19,812 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 15:27:19,829 INFO  - publish: start func with producer_id=3, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,830 INFO  - publish: exit func ret=True
+2022-04-10 15:27:19,846 INFO  - publish: start func with producer_id=5, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,847 INFO  - publish: exit func ret=False
+2022-04-10 15:27:19,893 INFO  - add_to_cart: start func with cart_id=124, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:19,893 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 15:27:19,934 INFO  - publish: start func with producer_id=0, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,934 INFO  - publish: exit func ret=True
+2022-04-10 15:27:19,934 INFO  - publish: start func with producer_id=1, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:19,935 INFO  - publish: exit func ret=True
+2022-04-10 15:27:19,960 INFO  - publish: start func with producer_id=3, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:19,961 INFO  - publish: exit func ret=True
+2022-04-10 15:27:19,974 INFO  - add_to_cart: start func with cart_id=124, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:19,975 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 15:27:20,036 INFO  - publish: start func with producer_id=8, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,037 INFO  - publish: exit func ret=True
+2022-04-10 15:27:20,055 INFO  - add_to_cart: start func with cart_id=124, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,056 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,056 INFO  - add_to_cart: start func with cart_id=124, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,057 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 15:27:20,067 INFO  - publish: start func with producer_id=6, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,067 INFO  - publish: exit func ret=False
+2022-04-10 15:27:20,099 INFO  - publish: start func with producer_id=7, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,099 INFO  - publish: exit func ret=False
+2022-04-10 15:27:20,122 INFO  - publish: start func with producer_id=2, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,123 INFO  - publish: exit func ret=True
+2022-04-10 15:27:20,137 INFO  - add_to_cart: start func with cart_id=124, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,138 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 15:27:20,156 INFO  - publish: start func with producer_id=4, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,156 INFO  - publish: exit func ret=True
+2022-04-10 15:27:20,186 INFO  - publish: start func with producer_id=1, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,186 INFO  - publish: exit func ret=True
+2022-04-10 15:27:20,218 INFO  - add_to_cart: start func with cart_id=124, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,219 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 15:27:20,238 INFO  - publish: start func with producer_id=5, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,238 INFO  - publish: exit func ret=False
+2022-04-10 15:27:20,291 INFO  - publish: start func with producer_id=3, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,292 INFO  - publish: exit func ret=True
+2022-04-10 15:27:20,299 INFO  - add_to_cart: start func with cart_id=124, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,299 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,300 INFO  - add_to_cart: start func with cart_id=124, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,300 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 15:27:20,305 INFO  - publish: start func with producer_id=0, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,306 INFO  - publish: exit func ret=True
+2022-04-10 15:27:20,328 INFO  - publish: start func with producer_id=8, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,328 INFO  - publish: exit func ret=True
+2022-04-10 15:27:20,358 INFO  - publish: start func with producer_id=6, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,358 INFO  - publish: exit func ret=False
+2022-04-10 15:27:20,381 INFO  - add_to_cart: start func with cart_id=124, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,381 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 15:27:20,430 INFO  - publish: start func with producer_id=7, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,431 INFO  - publish: exit func ret=False
+2022-04-10 15:27:20,437 INFO  - publish: start func with producer_id=1, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,438 INFO  - publish: exit func ret=True
+2022-04-10 15:27:20,452 INFO  - publish: start func with producer_id=3, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,453 INFO  - publish: exit func ret=True
+2022-04-10 15:27:20,462 INFO  - add_to_cart: start func with cart_id=124, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,462 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,463 INFO  - remove_from_cart: start func with cart_id=124, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,463 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:20,463 INFO  - remove_from_cart: start func with cart_id=124, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,464 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:20,464 INFO  - remove_from_cart: start func with cart_id=124, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,464 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:20,465 INFO  - place_order: start func with cart_id=124 and returned
+2022-04-10 15:27:20,465 INFO  - new_cart: start func
+2022-04-10 15:27:20,465 INFO  - new_cart: exit func with id=125
+2022-04-10 15:27:20,465 INFO  - add_to_cart: start func with cart_id=125, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,466 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,466 INFO  - add_to_cart: start func with cart_id=125, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,466 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,466 INFO  - add_to_cart: start func with cart_id=125, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,467 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,467 INFO  - add_to_cart: start func with cart_id=125, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,467 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,467 INFO  - register_producer: start func
+2022-04-10 15:27:20,467 INFO  - register_producer: exit func with producer_id=9
+2022-04-10 15:27:20,468 INFO  - publish: start func with producer_id=9, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,468 INFO  - new_cart: start func
+2022-04-10 15:27:20,468 INFO  - publish: exit func ret=False
+2022-04-10 15:27:20,468 INFO  - new_cart: exit func with id=126
+2022-04-10 15:27:20,468 INFO  - add_to_cart: start func with cart_id=126, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,469 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,469 INFO  - add_to_cart: start func with cart_id=126, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,469 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,469 INFO  - add_to_cart: start func with cart_id=126, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,469 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,469 INFO  - add_to_cart: start func with cart_id=126, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,470 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,470 INFO  - remove_from_cart: start func with cart_id=126, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,470 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:20,470 INFO  - remove_from_cart: start func with cart_id=126, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,470 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:20,470 INFO  - remove_from_cart: start func with cart_id=126, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,471 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:20,471 INFO  - remove_from_cart: start func with cart_id=126, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,471 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:20,471 INFO  - place_order: start func with cart_id=126 and returned
+2022-04-10 15:27:20,471 INFO  - new_cart: start func
+2022-04-10 15:27:20,471 INFO  - new_cart: exit func with id=127
+2022-04-10 15:27:20,472 INFO  - add_to_cart: start func with cart_id=127, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,472 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,472 INFO  - add_to_cart: start func with cart_id=127, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,472 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,472 INFO  - add_to_cart: start func with cart_id=127, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,472 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,472 INFO  - add_to_cart: start func with cart_id=127, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,473 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,473 INFO  - add_to_cart: start func with cart_id=127, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,473 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,473 INFO  - add_to_cart: start func with cart_id=127, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,473 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,473 INFO  - remove_from_cart: start func with cart_id=127, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,474 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:20,474 INFO  - place_order: start func with cart_id=127 and returned
+2022-04-10 15:27:20,474 INFO  - add_to_cart: start func with cart_id=113, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,474 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,474 INFO  - add_to_cart: start func with cart_id=113, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,475 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,475 INFO  - add_to_cart: start func with cart_id=113, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,475 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,475 INFO  - add_to_cart: start func with cart_id=113, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,475 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,476 INFO  - place_order: start func with cart_id=113 and returned
+2022-04-10 15:27:20,476 INFO  - new_cart: start func
+2022-04-10 15:27:20,476 INFO  - new_cart: exit func with id=128
+2022-04-10 15:27:20,476 INFO  - add_to_cart: start func with cart_id=128, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,476 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,476 INFO  - add_to_cart: start func with cart_id=128, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,477 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,477 INFO  - place_order: start func with cart_id=128 and returned
+2022-04-10 15:27:20,477 INFO  - new_cart: start func
+2022-04-10 15:27:20,477 INFO  - new_cart: exit func with id=129
+2022-04-10 15:27:20,477 INFO  - add_to_cart: start func with cart_id=129, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,478 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,478 INFO  - add_to_cart: start func with cart_id=129, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,478 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,478 INFO  - add_to_cart: start func with cart_id=129, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,478 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,478 INFO  - add_to_cart: start func with cart_id=129, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,479 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,479 INFO  - add_to_cart: start func with cart_id=129, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,479 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,479 INFO  - add_to_cart: start func with cart_id=129, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,480 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,480 INFO  - add_to_cart: start func with cart_id=129, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,480 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,480 INFO  - add_to_cart: start func with cart_id=129, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,481 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,481 INFO  - add_to_cart: start func with cart_id=129, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,481 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,481 INFO  - add_to_cart: start func with cart_id=129, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,481 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,481 INFO  - place_order: start func with cart_id=129 and returned
+2022-04-10 15:27:20,482 INFO  - new_cart: start func
+2022-04-10 15:27:20,482 INFO  - new_cart: exit func with id=130
+2022-04-10 15:27:20,482 INFO  - add_to_cart: start func with cart_id=130, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,482 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,482 INFO  - add_to_cart: start func with cart_id=130, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,483 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,483 INFO  - add_to_cart: start func with cart_id=130, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,483 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,483 INFO  - add_to_cart: start func with cart_id=130, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,483 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,483 INFO  - add_to_cart: start func with cart_id=130, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,484 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,484 INFO  - add_to_cart: start func with cart_id=130, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,484 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,484 INFO  - remove_from_cart: start func with cart_id=130, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,484 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:20,484 INFO  - place_order: start func with cart_id=130 and returned
+2022-04-10 15:27:20,485 INFO  - add_to_cart: start func with cart_id=125, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,485 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,485 INFO  - add_to_cart: start func with cart_id=125, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,485 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,485 INFO  - add_to_cart: start func with cart_id=125, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,485 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,486 INFO  - add_to_cart: start func with cart_id=125, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,486 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,486 INFO  - add_to_cart: start func with cart_id=125, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,486 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,486 INFO  - place_order: start func with cart_id=125 and returned
+2022-04-10 15:27:20,486 INFO  - new_cart: start func
+2022-04-10 15:27:20,487 INFO  - new_cart: exit func with id=131
+2022-04-10 15:27:20,487 INFO  - add_to_cart: start func with cart_id=131, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,487 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,487 INFO  - add_to_cart: start func with cart_id=131, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,487 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,487 INFO  - add_to_cart: start func with cart_id=131, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,488 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,488 INFO  - add_to_cart: start func with cart_id=131, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,488 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,488 INFO  - add_to_cart: start func with cart_id=131, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,488 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,488 INFO  - remove_from_cart: start func with cart_id=131, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,489 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:20,489 INFO  - place_order: start func with cart_id=131 and returned
+2022-04-10 15:27:20,489 INFO  - new_cart: start func
+2022-04-10 15:27:20,489 INFO  - new_cart: exit func with id=132
+2022-04-10 15:27:20,489 INFO  - add_to_cart: start func with cart_id=132, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,489 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,489 INFO  - add_to_cart: start func with cart_id=132, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,490 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,490 INFO  - add_to_cart: start func with cart_id=132, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,490 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,490 INFO  - add_to_cart: start func with cart_id=132, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,490 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,490 INFO  - add_to_cart: start func with cart_id=132, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,491 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,491 INFO  - remove_from_cart: start func with cart_id=132, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,491 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:20,491 INFO  - remove_from_cart: start func with cart_id=132, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,491 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:20,491 INFO  - place_order: start func with cart_id=132 and returned
+2022-04-10 15:27:20,491 INFO  - new_cart: start func
+2022-04-10 15:27:20,492 INFO  - new_cart: exit func with id=133
+2022-04-10 15:27:20,492 INFO  - add_to_cart: start func with cart_id=133, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,492 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,492 INFO  - add_to_cart: start func with cart_id=133, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,492 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,492 INFO  - add_to_cart: start func with cart_id=133, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,493 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,493 INFO  - add_to_cart: start func with cart_id=133, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,493 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,493 INFO  - add_to_cart: start func with cart_id=133, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,493 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,493 INFO  - remove_from_cart: start func with cart_id=133, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,493 INFO  - publish: start func with producer_id=2, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,493 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:20,494 INFO  - publish: exit func ret=True
+2022-04-10 15:27:20,494 INFO  - place_order: start func with cart_id=133 and returned
+2022-04-10 15:27:20,494 INFO  - new_cart: start func
+2022-04-10 15:27:20,494 INFO  - new_cart: exit func with id=134
+2022-04-10 15:27:20,495 INFO  - add_to_cart: start func with cart_id=134, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,495 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,495 INFO  - add_to_cart: start func with cart_id=134, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,495 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,495 INFO  - add_to_cart: start func with cart_id=134, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,495 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,496 INFO  - add_to_cart: start func with cart_id=134, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,496 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,496 INFO  - place_order: start func with cart_id=134 and returned
+2022-04-10 15:27:20,496 INFO  - add_to_cart: start func with cart_id=119, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,496 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,497 INFO  - add_to_cart: start func with cart_id=119, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,497 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,497 INFO  - add_to_cart: start func with cart_id=119, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,497 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,497 INFO  - add_to_cart: start func with cart_id=119, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,498 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,498 INFO  - add_to_cart: start func with cart_id=119, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,498 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,498 INFO  - place_order: start func with cart_id=119 and returned
+2022-04-10 15:27:20,498 INFO  - new_cart: start func
+2022-04-10 15:27:20,499 INFO  - new_cart: exit func with id=135
+2022-04-10 15:27:20,499 INFO  - add_to_cart: start func with cart_id=135, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,499 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,499 INFO  - add_to_cart: start func with cart_id=135, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,499 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,500 INFO  - add_to_cart: start func with cart_id=135, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,500 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,500 INFO  - add_to_cart: start func with cart_id=135, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,500 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,500 INFO  - add_to_cart: start func with cart_id=135, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,501 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,501 INFO  - add_to_cart: start func with cart_id=135, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,501 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,501 INFO  - add_to_cart: start func with cart_id=135, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,501 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,501 INFO  - add_to_cart: start func with cart_id=135, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,502 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,502 INFO  - remove_from_cart: start func with cart_id=135, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,502 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:20,502 INFO  - place_order: start func with cart_id=135 and returned
+2022-04-10 15:27:20,502 INFO  - new_cart: start func
+2022-04-10 15:27:20,503 INFO  - new_cart: exit func with id=136
+2022-04-10 15:27:20,503 INFO  - add_to_cart: start func with cart_id=136, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,503 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,503 INFO  - add_to_cart: start func with cart_id=136, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,503 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,503 INFO  - add_to_cart: start func with cart_id=136, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,504 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,504 INFO  - add_to_cart: start func with cart_id=136, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,504 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,504 INFO  - add_to_cart: start func with cart_id=136, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,504 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,504 INFO  - add_to_cart: start func with cart_id=136, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,505 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,505 INFO  - add_to_cart: start func with cart_id=136, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,505 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,505 INFO  - add_to_cart: start func with cart_id=136, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,505 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,506 INFO  - place_order: start func with cart_id=136 and returned
+2022-04-10 15:27:20,506 INFO  - new_cart: start func
+2022-04-10 15:27:20,506 INFO  - new_cart: exit func with id=137
+2022-04-10 15:27:20,506 INFO  - add_to_cart: start func with cart_id=137, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,506 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,507 INFO  - add_to_cart: start func with cart_id=137, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,507 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,507 INFO  - add_to_cart: start func with cart_id=137, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,507 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,507 INFO  - add_to_cart: start func with cart_id=137, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,507 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,508 INFO  - add_to_cart: start func with cart_id=137, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,508 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,508 INFO  - add_to_cart: start func with cart_id=137, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,508 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,508 INFO  - add_to_cart: start func with cart_id=137, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,509 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,509 INFO  - add_to_cart: start func with cart_id=137, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,509 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,509 INFO  - add_to_cart: start func with cart_id=137, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,509 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 15:27:20,557 INFO  - publish: start func with producer_id=4, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,557 INFO  - publish: exit func ret=True
+2022-04-10 15:27:20,614 INFO  - publish: start func with producer_id=3, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,614 INFO  - publish: exit func ret=True
+2022-04-10 15:27:20,629 INFO  - publish: start func with producer_id=5, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,629 INFO  - publish: exit func ret=False
+2022-04-10 15:27:20,649 INFO  - publish: start func with producer_id=6, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,650 INFO  - publish: exit func ret=False
+2022-04-10 15:27:20,676 INFO  - publish: start func with producer_id=0, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,677 INFO  - publish: exit func ret=True
+2022-04-10 15:27:20,688 INFO  - publish: start func with producer_id=1, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,689 INFO  - publish: exit func ret=True
+2022-04-10 15:27:20,689 INFO  - publish: start func with producer_id=8, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,690 INFO  - publish: exit func ret=True
+2022-04-10 15:27:20,694 INFO  - publish: start func with producer_id=2, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,695 INFO  - publish: exit func ret=True
+2022-04-10 15:27:20,761 INFO  - publish: start func with producer_id=7, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,762 INFO  - publish: exit func ret=False
+2022-04-10 15:27:20,775 INFO  - publish: start func with producer_id=3, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,775 INFO  - publish: exit func ret=True
+2022-04-10 15:27:20,830 INFO  - add_to_cart: start func with cart_id=137, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,831 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,832 INFO  - place_order: start func with cart_id=137 and returned
+2022-04-10 15:27:20,834 INFO  - new_cart: start func
+2022-04-10 15:27:20,835 INFO  - new_cart: exit func with id=138
+2022-04-10 15:27:20,836 INFO  - add_to_cart: start func with cart_id=138, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,837 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,838 INFO  - add_to_cart: start func with cart_id=138, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,839 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,840 INFO  - add_to_cart: start func with cart_id=138, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,841 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,842 INFO  - add_to_cart: start func with cart_id=138, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,843 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,844 INFO  - add_to_cart: start func with cart_id=138, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,845 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,847 INFO  - add_to_cart: start func with cart_id=138, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,847 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,849 INFO  - add_to_cart: start func with cart_id=138, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,850 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,851 INFO  - place_order: start func with cart_id=138 and returned
+2022-04-10 15:27:20,852 INFO  - new_cart: start func
+2022-04-10 15:27:20,853 INFO  - new_cart: exit func with id=139
+2022-04-10 15:27:20,854 INFO  - add_to_cart: start func with cart_id=139, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,855 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,857 INFO  - add_to_cart: start func with cart_id=139, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,858 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,859 INFO  - add_to_cart: start func with cart_id=139, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,859 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,861 INFO  - add_to_cart: start func with cart_id=139, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,862 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,863 INFO  - add_to_cart: start func with cart_id=139, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,864 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,865 INFO  - add_to_cart: start func with cart_id=139, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,866 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,867 INFO  - add_to_cart: start func with cart_id=139, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,868 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,869 INFO  - remove_from_cart: start func with cart_id=139, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,870 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:20,870 INFO  - remove_from_cart: start func with cart_id=139, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,871 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:20,872 INFO  - remove_from_cart: start func with cart_id=139, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,873 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:20,873 INFO  - remove_from_cart: start func with cart_id=139, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,874 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:20,875 INFO  - place_order: start func with cart_id=139 and returned
+2022-04-10 15:27:20,875 INFO  - new_cart: start func
+2022-04-10 15:27:20,876 INFO  - new_cart: exit func with id=140
+2022-04-10 15:27:20,876 INFO  - add_to_cart: start func with cart_id=140, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,876 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,877 INFO  - add_to_cart: start func with cart_id=140, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,877 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,877 INFO  - add_to_cart: start func with cart_id=140, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,877 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,878 INFO  - add_to_cart: start func with cart_id=140, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,878 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,878 INFO  - add_to_cart: start func with cart_id=140, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,878 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,878 INFO  - add_to_cart: start func with cart_id=140, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,878 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,879 INFO  - add_to_cart: start func with cart_id=140, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,879 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,879 INFO  - add_to_cart: start func with cart_id=140, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,879 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,879 INFO  - remove_from_cart: start func with cart_id=140, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,879 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:20,880 INFO  - remove_from_cart: start func with cart_id=140, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,880 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:20,880 INFO  - remove_from_cart: start func with cart_id=140, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,880 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:20,880 INFO  - remove_from_cart: start func with cart_id=140, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,880 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:20,881 INFO  - remove_from_cart: start func with cart_id=140, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,881 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:20,881 INFO  - place_order: start func with cart_id=140 and returned
+2022-04-10 15:27:20,881 INFO  - new_cart: start func
+2022-04-10 15:27:20,881 INFO  - new_cart: exit func with id=141
+2022-04-10 15:27:20,881 INFO  - add_to_cart: start func with cart_id=141, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,881 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,882 INFO  - add_to_cart: start func with cart_id=141, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,882 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,882 INFO  - add_to_cart: start func with cart_id=141, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,882 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,882 INFO  - add_to_cart: start func with cart_id=141, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,883 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,883 INFO  - add_to_cart: start func with cart_id=141, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,883 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,883 INFO  - remove_from_cart: start func with cart_id=141, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,883 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:20,883 INFO  - remove_from_cart: start func with cart_id=141, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,883 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:20,884 INFO  - remove_from_cart: start func with cart_id=141, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,884 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:20,884 INFO  - remove_from_cart: start func with cart_id=141, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,884 INFO  - remove_from_cart: exit func
+2022-04-10 15:27:20,884 INFO  - place_order: start func with cart_id=141 and returned
+2022-04-10 15:27:20,884 INFO  - new_cart: start func
+2022-04-10 15:27:20,885 INFO  - new_cart: exit func with id=142
+2022-04-10 15:27:20,885 INFO  - add_to_cart: start func with cart_id=142, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,885 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,885 INFO  - add_to_cart: start func with cart_id=142, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,885 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,886 INFO  - add_to_cart: start func with cart_id=142, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,886 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,886 INFO  - add_to_cart: start func with cart_id=142, product=Tea(name='Wild Cherry', price=4, type='Black')
+2022-04-10 15:27:20,886 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,886 INFO  - add_to_cart: start func with cart_id=142, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,886 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:20,887 INFO  - add_to_cart: start func with cart_id=142, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,887 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 15:27:20,895 INFO  - publish: start func with producer_id=3, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,896 INFO  - publish: exit func ret=True
+2022-04-10 15:27:20,896 INFO  - publish: start func with producer_id=2, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,897 INFO  - publish: exit func ret=True
+2022-04-10 15:27:20,940 INFO  - publish: start func with producer_id=1, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,940 INFO  - publish: exit func ret=True
+2022-04-10 15:27:20,941 INFO  - publish: start func with producer_id=6, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:20,941 INFO  - publish: exit func ret=False
+2022-04-10 15:27:20,958 INFO  - publish: start func with producer_id=4, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:20,959 INFO  - publish: exit func ret=True
+2022-04-10 15:27:20,981 INFO  - publish: start func with producer_id=8, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:20,981 INFO  - publish: exit func ret=True
+2022-04-10 15:27:21,020 INFO  - publish: start func with producer_id=5, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:21,021 INFO  - publish: exit func ret=False
+2022-04-10 15:27:21,027 INFO  - publish: start func with producer_id=3, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:21,028 INFO  - publish: exit func ret=True
+2022-04-10 15:27:21,038 INFO  - publish: start func with producer_id=2, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:21,038 INFO  - publish: exit func ret=True
+2022-04-10 15:27:21,039 INFO  - publish: start func with producer_id=9, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:21,040 INFO  - publish: exit func ret=True
+2022-04-10 15:27:21,078 INFO  - publish: start func with producer_id=0, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:21,079 INFO  - publish: exit func ret=True
+2022-04-10 15:27:21,093 INFO  - publish: start func with producer_id=7, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:21,094 INFO  - publish: exit func ret=False
+2022-04-10 15:27:21,159 INFO  - publish: start func with producer_id=3, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:21,160 INFO  - publish: exit func ret=True
+2022-04-10 15:27:21,180 INFO  - publish: start func with producer_id=2, product=Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:21,181 INFO  - publish: exit func ret=True
+2022-04-10 15:27:21,191 INFO  - publish: start func with producer_id=1, product=Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2022-04-10 15:27:21,192 INFO  - publish: exit func ret=True
+2022-04-10 15:27:21,232 INFO  - publish: start func with producer_id=6, product=Tea(name='Cactus fig', price=3, type='Green')
+2022-04-10 15:27:21,233 INFO  - publish: exit func ret=False
+2022-04-10 15:27:21,247 INFO  - add_to_cart: start func with cart_id=142, product=Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2022-04-10 15:27:21,248 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 15:27:21,249 INFO  - place_order: start func with cart_id=142 and returned
