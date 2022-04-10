@@ -62,7 +62,7 @@ class Marketplace:
         """
         # producer_id e pentru prima oara, trebuie creata o intrare pt el
         if producer_id not in self.queue:
-            self.queue[producer_id] = dict()
+            self.queue[producer_id] = {}
         else:
             # products este dictionarul de tip { "product_id" : qty}
             products = self.queue[producer_id]
@@ -87,7 +87,7 @@ class Marketplace:
         :returns an int representing the cart_id
         """
         cart_id = self.cart_ids
-        self.carts[cart_id] = list()
+        self.carts[cart_id] = []
         self.cart_ids += 1
         return cart_id
 

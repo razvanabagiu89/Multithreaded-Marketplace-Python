@@ -57,16 +57,17 @@ class Consumer(Thread):
             # op e dictionar de tipul ["type": "add", "product": "id2", "quantity": 1]
             for operation in ops:
                 if operation["type"] == "add":
-                    for i in range(operation["quantity"]):
+                    for _ in range(operation["quantity"]):
                         while True:
                             with self.marketplace.lock:
-                                is_ok = self.marketplace.add_to_cart(self.cart_id, operation["product"])
+                                is_ok = self.marketplace.add_to_cart(
+                                    self.cart_id, operation["product"])
                             if is_ok is False:
                                 sleep(self.retry_wait_time)
                             else:
                                 break
                 elif operation["type"] == "remove":
-                    for i in range(operation["quantity"]):
+                    for _ in range(operation["quantity"]):
                         with self.marketplace.lock:
                             self.marketplace.remove_from_cart(self.cart_id, operation["product"])
 

@@ -48,7 +48,7 @@ class Producer(Thread):
         while True:
             for item in self.products:
                 (product_id, qty, publish_cooldown) = item
-                for i in range(qty):
+                for _ in range(qty):
                     while True:
                         is_ok = self.marketplace.publish(self.id_producer, product_id)
                         sleep(publish_cooldown)
