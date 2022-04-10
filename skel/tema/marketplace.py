@@ -45,7 +45,8 @@ class Marketplace:
                             format='%(asctime)s %(levelname)s '
                                    ' - %(funcName)s: %(message)s')
         logging.Formatter.converter = time.gmtime
-        logging.info(f"init with queue_size_per_producer={queue_size_per_producer}")
+        logging.info("init with queue_size_per_producer=%(queue_size_per_producer)")
+
 
     def register_producer(self):
         """
@@ -54,7 +55,7 @@ class Marketplace:
         logging.info("start func")
         producer_id = self.producer_ids
         self.producer_ids += 1
-        logging.info(f"exit func with producer_id={producer_id}")
+        logging.info("exit func")
         return producer_id
 
     def publish(self, producer_id, product):
@@ -69,7 +70,7 @@ class Marketplace:
 
         :returns True or False. If the caller receives False, it should wait and then try again.
         """
-        logging.info(f"start func with producer_id={producer_id}, product={product}")
+        logging.info("start func with producer_id=%(producer_id), product=%(product)")
         # if producer_id is the first time in the marketplace, it needs a new entry
         if producer_id not in self.queue:
             self.queue[producer_id] = {}
@@ -102,7 +103,7 @@ class Marketplace:
         cart_id = self.cart_ids
         self.carts[cart_id] = []
         self.cart_ids += 1
-        logging.info(f"exit func with id={cart_id}")
+        logging.info("exit func")
         return cart_id
 
     def add_to_cart(self, cart_id, product):
@@ -117,7 +118,7 @@ class Marketplace:
 
         :returns True or False. If the caller receives False, it should wait and then try again
         """
-        logging.info(f"start func with cart_id={cart_id}, product={product}")
+        logging.info("start func with cart_id=%(cart_id), product=%(product)")
         # is there this product with qty != 0?
         # if yes, add it then decrement the qty
         # in this way, the product will be unavailable to other consumers
@@ -128,9 +129,9 @@ class Marketplace:
                     shopping_list.append(product)
                     self.carts[cart_id] = shopping_list
                     products[product] -= 1  # make it unavailable
-                    logging.info(f"exit func with ret=True")
+                    logging.info("exit func with ret=True")
                     return True
-        logging.info(f"exit func with ret=False")
+        logging.info("exit func with ret=False")
         return False
 
     def remove_from_cart(self, cart_id, product):
@@ -143,14 +144,14 @@ class Marketplace:
         :type product: Product
         :param product: the product to remove from cart
         """
-        logging.info(f"start func with cart_id={cart_id}, product={product}")
+        logging.info("start func with cart_id=%(cart_id), product=%(product)")
         shopping_list = self.carts[cart_id]
         shopping_list.remove(product)
         self.carts[cart_id] = shopping_list
         for products in self.queue.values():
             if product in products:
                 products[product] += 1  # make it available
-        logging.info(f"exit func")
+        logging.info("exit func")
 
     def place_order(self, cart_id):
         """
@@ -159,5 +160,5 @@ class Marketplace:
         :type cart_id: Int
         :param cart_id: id cart
         """
-        logging.info(f"start func with cart_id={cart_id} and returned")
+        logging.info("start func with cart_id=%(cart_id) and returned")
         return self.carts[cart_id]
