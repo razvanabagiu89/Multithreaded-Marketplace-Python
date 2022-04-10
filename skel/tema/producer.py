@@ -3,7 +3,7 @@ This module represents the Producer.
 
 Computer Systems Architecture Course
 Assignment 1
-March 2021
+March 2022
 """
 from threading import Thread
 from time import sleep
@@ -13,7 +13,7 @@ class Producer(Thread):
     """
     Class that represents a producer.
     """
-    # preluat din marketplace din register_producer() si folosit la publish() ulterior
+    # will be taken from marketplace at register_producer() then used for publish()
     id_producer: int
 
     def __init__(self, products, marketplace, republish_wait_time, **kwargs):
@@ -34,13 +34,12 @@ class Producer(Thread):
         @param kwargs: other arguments that are passed to the Thread's __init__()
         """
         Thread.__init__(self, **kwargs)
-        # lista de tipul: ["id", cantitate, publish_cooldown]
+        # list of type: ["id", qty, publish_cooldown]
         self.products = products
-        # referinta la marketplace
+        # marketplace reference
         self.marketplace = marketplace
-        # cand limit e la maxim, asteapta acest timp
+        # when reached queue limit, wait this time
         self.republish_wait_time = republish_wait_time
-
 
     def run(self):
         with self.marketplace.lock:

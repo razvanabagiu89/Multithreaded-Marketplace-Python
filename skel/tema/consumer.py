@@ -3,9 +3,8 @@ This module represents the Consumer.
 
 Computer Systems Architecture Course
 Assignment 1
-March 2021
+March 2022
 """
-import threading
 from threading import Thread
 from time import sleep
 
@@ -14,8 +13,8 @@ class Consumer(Thread):
     """
     Class that represents a consumer.
     """
-    # preluat din new_cart() si folosit ulterior
-    # la add_to_cart(), remove_from_cart() si place_order()
+    # taken from marketplace at new_cart() then used
+    # on add_to_cart(), remove_from_cart() and place_order()
     cart_id: int
 
     def __init__(self, carts, marketplace, retry_wait_time, **kwargs):
@@ -36,36 +35,32 @@ class Consumer(Thread):
         :param kwargs: other arguments that are passed to the Thread's __init__()
         """
         Thread.__init__(self, **kwargs)
-        # lista de dictionare de tipul:
+        # list of dictionaries of type:
         # ["type": "add",
         # "product": "id2",
         # "quantity": 1]
         self.carts_ops = carts
-        # referinta la marketplace
+        # marketplace reference
         self.marketplace = marketplace
-        # daca nu gaseste produsul pe care il vrea in queue, va astepta acest timp
+        # if product is not found in queue, wait this time
         self.retry_wait_time = retry_wait_time
-        # propriul shopping cart ce va fi preluat din new_cart()
-        # self.cart_id = self.marketplace.new_cart()
-
-        self.lock = threading.Lock()
 
     def run(self):
         for ops in self.carts_ops:
             with self.marketplace.lock:
                 self.cart_id = self.marketplace.new_cart()
-            # op e dictionar de tipul ["type": "add", "product": "id2", "quantity": 1]
+            # operation is a dictionary of type: ["type": "add", "product": "id2", "quantity": 1]
             for operation in ops:
                 if operation["type"] == "add":
                     for _ in range(operation["quantity"]):
-                        while True:
-                            with self.marketplace.lock:
+                        with self.marketplace.lock:
+                            while True:
                                 is_ok = self.marketplace.add_to_cart(
                                     self.cart_id, operation["product"])
-                            if is_ok is False:
-                                sleep(self.retry_wait_time)
-                            else:
-                                break
+                                if is_ok is False:
+                                    sleep(self.retry_wait_time)
+                                else:
+                                    break
                 elif operation["type"] == "remove":
                     for _ in range(operation["quantity"]):
                         with self.marketplace.lock:

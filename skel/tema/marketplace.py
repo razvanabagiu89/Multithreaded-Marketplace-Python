@@ -3,7 +3,7 @@ This module represents the Marketplace.
 
 Computer Systems Architecture Course
 Assignment 1
-March 2021
+March 2022
 """
 import threading
 
@@ -13,16 +13,16 @@ class Marketplace:
     Class that represents the Marketplace. It's the central part of the implementation.
     The producers and consumers use its methods concurrently.
     """
-    # genereaza cate un id pt fiecare producer care cheama register_producer()
+    # generate an id for every producer that calls register_producer()
     producer_ids: int
-    # nested dict de tipul
+    # nested dictionary of type:
     # { "producer_id" : { "product_id" : qty } }
     queue: dict
 
-    # nested dict de tipul
-    # { "cart_id" : [] } unde [] -> lista cu obiectele din cart
+    # nested dictionary of type:
+    # { "cart_id" : [] }, where [] = list of products from the cart
     carts: dict
-    cart_ids : int
+    cart_ids: int
 
     def __init__(self, queue_size_per_producer):
         """
@@ -36,7 +36,6 @@ class Marketplace:
         self.queue = {}
         self.carts = {}
         self.cart_ids = 0
-
         self.lock = threading.Lock()
 
     def register_producer(self):
@@ -46,7 +45,6 @@ class Marketplace:
         producer_id = self.producer_ids
         self.producer_ids += 1
         return producer_id
-
 
     def publish(self, producer_id, product):
         """
@@ -60,20 +58,19 @@ class Marketplace:
 
         :returns True or False. If the caller receives False, it should wait and then try again.
         """
-        # producer_id e pentru prima oara, trebuie creata o intrare pt el
+        # if producer_id is the first time in the marketplace, it needs a new entry
         if producer_id not in self.queue:
             self.queue[producer_id] = {}
         else:
-            # products este dictionarul de tip { "product_id" : qty}
+            # products is a dictionary of type { "product_id" : qty}
             products = self.queue[producer_id]
-            # verifica daca nu si a depasit limita prin insumarea de qty
+            # check if it didn't cross the limit by summing up the qtys
             current_size = sum(products.values())
-            # daca inca are loc
             if current_size < self.queue_size_per_producer:
-                # verifica daca nu exista produsul curent si il adauga cu qty 1
+                # check if the current product doesn't exist and add it with qty = 1
                 if product not in products:
-                    products[product] = 1  # product este product_id si 1 este qty
-                # daca exista deja doar mareste qty
+                    products[product] = 1  # product is product_id and 1 represents the qty
+                # if it already exists just increment the qty
                 else:
                     products[product] += 1
                 return True
@@ -103,15 +100,16 @@ class Marketplace:
 
         :returns True or False. If the caller receives False, it should wait and then try again
         """
-        # exista product cu qty != 0 ?
-        # daca da, adauga l si scade qty
-        for products in self.queue.values():  # { "product_id" : qty }
+        # is there this product with qty != 0?
+        # if yes, add it then decrement the qty
+        # in this way, the product will be unavailable to other consumers
+        for products in self.queue.values():
             if product in products:
-                if products[product] > 0:  # avem qty pt el
+                if products[product] > 0:
                     shopping_list = self.carts[cart_id]
                     shopping_list.append(product)
                     self.carts[cart_id] = shopping_list
-                    products[product] -= 1  # l am facut indisponibil
+                    products[product] -= 1  # make it unavailable
                     return True
         return False
 
@@ -128,11 +126,9 @@ class Marketplace:
         shopping_list = self.carts[cart_id]
         shopping_list.remove(product)
         self.carts[cart_id] = shopping_list
-        # product acum trebuie trecut disponibil pt ceilalti adica de crescut qty din queue
         for products in self.queue.values():
             if product in products:
-                products[product] += 1  # l am facut disponibil
-
+                products[product] += 1  # make it available
 
     def place_order(self, cart_id):
         """
