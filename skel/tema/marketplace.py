@@ -232,7 +232,7 @@ class Marketplace:
         :type product: Product
         :param product: the product to remove from cart
         """
-        logging.info("start func with cart_id=%s, product=%s")
+        logging.info("start func with cart_id=%s, product=%s", cart_id, product)
         shopping_list = self.carts[cart_id]
         shopping_list.remove(product)
         self.carts[cart_id] = shopping_list
