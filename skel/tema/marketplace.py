@@ -8,7 +8,102 @@ March 2022
 import threading
 import logging
 import time
+import unittest
 from logging.handlers import RotatingFileHandler
+
+
+class TestMarketplaceMethods(unittest.TestCase):
+    """
+    Class that represents the unit testing for the Marketplace methods.
+    """
+
+    def setUp(self):
+        """
+        Constructor for setting up the tests
+        Initialize the marketplace with queue_limit = 8
+        """
+        self.marketplace = Marketplace(8)
+
+    def test_register_producer(self):
+        """
+        Test the register_producer func
+        """
+        # first register should always be 0
+        self.assertEqual(self.marketplace.register_producer(), 0)
+        # increment
+        self.assertEqual(self.marketplace.register_producer(), 1)
+        # next one should be 2 not 3
+        self.assertNotEqual(self.marketplace.register_producer(), 3)
+
+    def test_publish(self):
+        """
+        Test the publish func
+        """
+        # publish 8 times so we can test queue_limit
+        for _ in range(8):
+            self.assertEqual(self.marketplace.publish("0", "id1"), True)
+        # should be False because queue is full
+        self.assertEqual(self.marketplace.publish("0", "id1"), False)
+
+    def test_new_cart(self):
+        """
+        Test the new_cart func
+        """
+        # first cart should always be 0
+        self.assertEqual(self.marketplace.new_cart(), 0)
+        # increment
+        self.assertEqual(self.marketplace.new_cart(), 1)
+        # next one should be 2 not 3
+        self.assertNotEqual(self.marketplace.new_cart(), 3)
+
+    def test_add_to_cart(self):
+        """
+        Test the add_to_cart func
+        """
+        # add to cart without a cart should be False
+        self.assertEqual(self.marketplace.add_to_cart(0, "id1"), False)
+        self.marketplace.new_cart()
+        # add to cart a product which doesn't exist
+        self.assertEqual(self.marketplace.add_to_cart(0, "id1"), False)
+        self.marketplace.publish("0", "id1")
+        # now should work with product published above
+        self.assertEqual(self.marketplace.add_to_cart(0, "id1"), True)
+
+    def test_remove_from_cart(self):
+        """
+        Test the remove_from_cart func
+        """
+        # publish 3 products
+        self.marketplace.publish("0", "id1")
+        self.marketplace.publish("0", "id2")
+        self.marketplace.publish("0", "id1")
+        # make a new cart
+        self.marketplace.new_cart()
+        # add all products
+        self.marketplace.add_to_cart(0, "id1")
+        self.marketplace.add_to_cart(0, "id2")
+        self.marketplace.add_to_cart(0, "id1")
+        # remove one
+        self.marketplace.remove_from_cart(0, "id2")
+        # len of cart should be 2
+        self.assertEqual(len(self.marketplace.carts[0]) == 2, True)
+
+    def test_place_order(self):
+        """
+        Test the place_order func
+        """
+        # publish 3 products
+        self.marketplace.publish("0", "id1")
+        self.marketplace.publish("0", "id2")
+        self.marketplace.publish("0", "id3")
+        # make a new cart
+        self.marketplace.new_cart()
+        # add all products
+        self.marketplace.add_to_cart(0, "id1")
+        self.marketplace.add_to_cart(0, "id2")
+        self.marketplace.add_to_cart(0, "id3")
+        # place order
+        self.assertEqual(self.marketplace.place_order(0), ['id1', 'id2', 'id3'])
 
 
 class Marketplace:
@@ -45,17 +140,14 @@ class Marketplace:
                             format='%(asctime)s %(levelname)s '
                                    ' - %(funcName)s: %(message)s')
         logging.Formatter.converter = time.gmtime
-        logging.info("init with queue_size_per_producer=%(queue_size_per_producer)")
-
 
     def register_producer(self):
         """
         Returns an id for the producer that calls this.
         """
-        logging.info("start func")
         producer_id = self.producer_ids
         self.producer_ids += 1
-        logging.info("exit func")
+        logging.info("registered producer")
         return producer_id
 
     def publish(self, producer_id, product):
@@ -70,26 +162,23 @@ class Marketplace:
 
         :returns True or False. If the caller receives False, it should wait and then try again.
         """
-        logging.info("start func with producer_id=%(producer_id), product=%(product)")
+        logging.info("start func with producer_id=%s, product=%s", producer_id, product)
         # if producer_id is the first time in the marketplace, it needs a new entry
         if producer_id not in self.queue:
             self.queue[producer_id] = {}
-        else:
-            # products is a dictionary of type { "product_id" : qty}
-            products = self.queue[producer_id]
-            # check if it didn't cross the limit by summing up the qtys
-            current_size = sum(products.values())
-            if current_size < self.queue_size_per_producer:
-                # check if the current product doesn't exist and add it with qty = 1
-                if product not in products:
-                    products[product] = 1  # product is product_id and 1 represents the qty
-                # if it already exists just increment the qty
-                else:
-                    products[product] += 1
-                logging.info("exit func ret=True")
-                return True
-            logging.info("exit func ret=False")
-            return False
+        # products is a dictionary of type { "product_id" : qty}
+        products = self.queue[producer_id]
+        # check if it didn't cross the limit by summing up the qtys
+        current_size = sum(products.values())
+        if current_size < self.queue_size_per_producer:
+            # check if the current product doesn't exist and add it with qty = 1
+            if product not in products:
+                products[product] = 1  # product is product_id and 1 represents the qty
+            # if it already exists just increment the qty
+            else:
+                products[product] += 1
+            logging.info("exit func ret=True")
+            return True
         logging.info("exit func ret=False")
         return False
 
@@ -99,11 +188,10 @@ class Marketplace:
 
         :returns an int representing the cart_id
         """
-        logging.info("start func")
         cart_id = self.cart_ids
         self.carts[cart_id] = []
         self.cart_ids += 1
-        logging.info("exit func")
+        logging.info("created new cart")
         return cart_id
 
     def add_to_cart(self, cart_id, product):
@@ -118,7 +206,7 @@ class Marketplace:
 
         :returns True or False. If the caller receives False, it should wait and then try again
         """
-        logging.info("start func with cart_id=%(cart_id), product=%(product)")
+        logging.info("start func with cart_id=%s, product=%s", cart_id, product)
         # is there this product with qty != 0?
         # if yes, add it then decrement the qty
         # in this way, the product will be unavailable to other consumers
@@ -144,14 +232,13 @@ class Marketplace:
         :type product: Product
         :param product: the product to remove from cart
         """
-        logging.info("start func with cart_id=%(cart_id), product=%(product)")
+        logging.info("start func with cart_id=%s, product=%s")
         shopping_list = self.carts[cart_id]
         shopping_list.remove(product)
         self.carts[cart_id] = shopping_list
         for products in self.queue.values():
             if product in products:
                 products[product] += 1  # make it available
-        logging.info("exit func")
 
     def place_order(self, cart_id):
         """
@@ -160,5 +247,5 @@ class Marketplace:
         :type cart_id: Int
         :param cart_id: id cart
         """
-        logging.info("start func with cart_id=%(cart_id) and returned")
+        logging.info("start func with cart_id=%s and returned", cart_id)
         return self.carts[cart_id]

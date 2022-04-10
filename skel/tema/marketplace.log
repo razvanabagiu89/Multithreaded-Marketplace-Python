@@ -1,0 +1,490 @@
+2022-04-10 15:47:09,071 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 15:47:09,072 INFO  - register_producer: start func
+2022-04-10 15:47:09,072 INFO  - register_producer: exit func
+2022-04-10 15:47:25,526 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 15:47:25,526 INFO  - register_producer: start func
+2022-04-10 15:47:25,526 INFO  - register_producer: exit func
+2022-04-10 15:47:59,068 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 15:47:59,069 INFO  - register_producer: start func
+2022-04-10 15:47:59,069 INFO  - register_producer: exit func
+2022-04-10 15:47:59,069 INFO  - register_producer: start func
+2022-04-10 15:47:59,069 INFO  - register_producer: exit func
+2022-04-10 15:47:59,069 INFO  - register_producer: start func
+2022-04-10 15:47:59,069 INFO  - register_producer: exit func
+2022-04-10 15:49:09,886 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 15:49:09,886 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 15:49:09,886 INFO  - publish: exit func ret=False
+2022-04-10 15:49:38,329 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 15:49:38,329 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 15:49:38,341 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 15:49:38,343 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 15:49:38,344 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 15:49:38,344 INFO  - publish: exit func ret=False
+2022-04-10 15:49:38,350 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 15:49:38,350 INFO  - register_producer: start func
+2022-04-10 15:49:38,350 INFO  - register_producer: exit func
+2022-04-10 15:49:38,350 INFO  - register_producer: start func
+2022-04-10 15:49:38,351 INFO  - register_producer: exit func
+2022-04-10 15:49:38,351 INFO  - register_producer: start func
+2022-04-10 15:49:38,351 INFO  - register_producer: exit func
+2022-04-10 15:49:38,352 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 15:50:22,005 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 15:50:22,005 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 15:50:22,005 INFO  - publish: exit func ret=False
+2022-04-10 15:50:37,016 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 15:50:37,016 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 15:50:37,016 INFO  - publish: exit func ret=False
+2022-04-10 15:50:55,419 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 15:50:55,420 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 15:50:55,420 INFO  - publish: exit func ret=False
+2022-04-10 15:52:13,286 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 15:52:13,286 INFO  - register_producer: start func
+2022-04-10 15:52:13,286 INFO  - register_producer: exit func
+2022-04-10 15:52:13,286 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 15:52:13,286 INFO  - publish: exit func ret=False
+2022-04-10 15:52:18,312 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 15:52:18,312 INFO  - register_producer: start func
+2022-04-10 15:52:18,312 INFO  - register_producer: exit func
+2022-04-10 15:52:18,313 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 15:52:18,313 INFO  - publish: exit func ret=False
+2022-04-10 15:52:47,261 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 15:52:47,261 INFO  - register_producer: start func
+2022-04-10 15:52:47,261 INFO  - register_producer: exit func
+2022-04-10 15:52:47,261 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 15:52:47,261 INFO  - publish: exit func ret=False
+2022-04-10 15:53:30,328 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 15:53:30,328 INFO  - register_producer: start func
+2022-04-10 15:53:30,328 INFO  - register_producer: exit func
+2022-04-10 15:53:30,328 INFO  - register_producer: start func
+2022-04-10 15:53:30,328 INFO  - register_producer: exit func
+2022-04-10 15:53:30,328 INFO  - register_producer: start func
+2022-04-10 15:53:30,328 INFO  - register_producer: exit func
+2022-04-10 15:53:35,146 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 15:53:35,146 INFO  - register_producer: start func
+2022-04-10 15:53:35,146 INFO  - register_producer: exit func
+2022-04-10 15:53:35,146 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 15:53:35,147 INFO  - publish: exit func ret=False
+2022-04-10 15:54:03,574 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 15:54:03,574 INFO  - register_producer: start func
+2022-04-10 15:54:03,574 INFO  - register_producer: exit func
+2022-04-10 15:54:13,701 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 15:54:13,701 INFO  - register_producer: start func
+2022-04-10 15:54:13,701 INFO  - register_producer: exit func
+2022-04-10 15:54:13,701 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 15:54:13,701 INFO  - publish: exit func ret=False
+2022-04-10 15:55:11,700 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 15:55:11,700 INFO  - register_producer: start func
+2022-04-10 15:55:11,700 INFO  - register_producer: exit func
+2022-04-10 15:55:11,700 INFO  - register_producer: start func
+2022-04-10 15:55:11,700 INFO  - register_producer: exit func
+2022-04-10 15:55:11,700 INFO  - register_producer: start func
+2022-04-10 15:55:11,700 INFO  - register_producer: exit func
+2022-04-10 15:55:27,781 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 15:55:27,781 INFO  - register_producer: start func
+2022-04-10 15:55:27,781 INFO  - register_producer: exit func
+2022-04-10 15:55:27,782 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 15:55:27,782 INFO  - publish: exit func ret=False
+2022-04-10 15:58:22,653 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 15:58:22,654 INFO  - register_producer: start func
+2022-04-10 15:58:22,654 INFO  - register_producer: exit func
+2022-04-10 15:58:22,654 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 15:58:22,654 INFO  - publish: exit func ret=False
+2022-04-10 15:58:32,411 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 15:58:32,411 INFO  - register_producer: start func
+2022-04-10 15:58:32,411 INFO  - register_producer: exit func
+2022-04-10 15:58:32,411 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 15:58:32,411 INFO  - publish: exit func ret=False
+2022-04-10 15:59:10,016 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 15:59:10,016 INFO  - register_producer: start func
+2022-04-10 15:59:10,016 INFO  - register_producer: exit func
+2022-04-10 15:59:10,016 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 15:59:10,016 INFO  - publish: exit func ret=False
+2022-04-10 15:59:21,386 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 15:59:21,386 INFO  - register_producer: start func
+2022-04-10 15:59:21,386 INFO  - register_producer: exit func
+2022-04-10 15:59:21,386 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 15:59:21,386 INFO  - publish: exit func ret=False
+2022-04-10 15:59:47,621 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 15:59:47,622 INFO  - register_producer: start func
+2022-04-10 15:59:47,622 INFO  - register_producer: exit func
+2022-04-10 15:59:47,622 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 15:59:47,622 INFO  - publish: exit func ret=False
+2022-04-10 16:00:06,922 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 16:00:06,922 INFO  - register_producer: start func
+2022-04-10 16:00:06,922 INFO  - register_producer: exit func
+2022-04-10 16:01:48,281 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 16:01:48,281 INFO  - register_producer: start func
+2022-04-10 16:01:48,281 INFO  - register_producer: exit func
+2022-04-10 16:01:48,281 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:01:48,281 INFO  - publish: exit func ret=False
+2022-04-10 16:02:16,199 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 16:02:16,199 INFO  - register_producer: start func
+2022-04-10 16:02:16,199 INFO  - register_producer: exit func
+2022-04-10 16:02:16,199 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:02:16,199 INFO  - publish: exit func ret=False
+2022-04-10 16:02:28,217 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 16:02:28,217 INFO  - register_producer: start func
+2022-04-10 16:02:28,217 INFO  - register_producer: exit func
+2022-04-10 16:02:28,217 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:02:28,217 INFO  - publish: exit func ret=False
+2022-04-10 16:02:42,501 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 16:02:42,501 INFO  - register_producer: start func
+2022-04-10 16:02:42,501 INFO  - register_producer: exit func
+2022-04-10 16:02:42,501 INFO  - register_producer: start func
+2022-04-10 16:02:42,501 INFO  - register_producer: exit func
+2022-04-10 16:02:42,501 INFO  - register_producer: start func
+2022-04-10 16:02:42,502 INFO  - register_producer: exit func
+2022-04-10 16:02:46,298 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 16:02:46,298 INFO  - register_producer: start func
+2022-04-10 16:02:46,298 INFO  - register_producer: exit func
+2022-04-10 16:02:46,299 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:02:46,299 INFO  - publish: exit func ret=False
+2022-04-10 16:03:04,338 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 16:03:04,338 INFO  - register_producer: start func
+2022-04-10 16:03:04,338 INFO  - register_producer: exit func
+2022-04-10 16:03:04,338 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:03:04,339 INFO  - publish: exit func ret=False
+2022-04-10 16:03:15,138 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 16:03:15,138 INFO  - register_producer: start func
+2022-04-10 16:03:15,138 INFO  - register_producer: exit func
+2022-04-10 16:03:15,138 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:03:15,138 INFO  - publish: exit func ret=False
+2022-04-10 16:04:00,996 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 16:04:00,997 INFO  - register_producer: start func
+2022-04-10 16:04:00,997 INFO  - register_producer: exit func
+2022-04-10 16:04:00,997 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:04:00,997 INFO  - publish: exit func ret=False
+2022-04-10 16:04:20,099 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 16:04:20,099 INFO  - register_producer: start func
+2022-04-10 16:04:20,099 INFO  - register_producer: exit func
+2022-04-10 16:04:20,099 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:04:20,100 INFO  - publish: exit func ret=False
+2022-04-10 16:05:02,655 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 16:05:02,655 INFO  - register_producer: start func
+2022-04-10 16:05:02,655 INFO  - register_producer: exit func
+2022-04-10 16:05:02,655 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:05:31,233 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 16:05:31,233 INFO  - register_producer: start func
+2022-04-10 16:05:31,234 INFO  - register_producer: exit func
+2022-04-10 16:05:31,234 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:05:31,234 INFO  - publish: exit func ret=True
+2022-04-10 16:06:25,170 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 16:06:25,171 INFO  - register_producer: start func
+2022-04-10 16:06:25,171 INFO  - register_producer: exit func
+2022-04-10 16:06:25,171 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:06:25,171 INFO  - publish: exit func ret=True
+2022-04-10 16:08:58,028 INFO  - __init__: init with queue_size_per_producer=%(queue_size_per_producer)
+2022-04-10 16:08:58,028 INFO  - register_producer: start func
+2022-04-10 16:08:58,028 INFO  - register_producer: exit func
+2022-04-10 16:08:58,028 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:08:58,028 INFO  - publish: exit func ret=True
+2022-04-10 16:14:29,596 INFO  - register_producer: registered producer
+2022-04-10 16:14:29,596 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:14:29,596 INFO  - publish: exit func ret=True
+2022-04-10 16:14:29,597 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:14:29,597 INFO  - publish: exit func ret=True
+2022-04-10 16:14:47,568 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:14:47,568 INFO  - publish: exit func ret=True
+2022-04-10 16:14:47,568 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:14:47,568 INFO  - publish: exit func ret=True
+2022-04-10 16:14:55,097 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:14:55,097 INFO  - publish: exit func ret=True
+2022-04-10 16:14:55,097 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:14:55,097 INFO  - publish: exit func ret=True
+2022-04-10 16:15:23,811 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:15:23,811 INFO  - publish: exit func ret=True
+2022-04-10 16:15:23,811 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:15:23,811 INFO  - publish: exit func ret=True
+2022-04-10 16:15:23,811 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:15:23,811 INFO  - publish: exit func ret=True
+2022-04-10 16:15:23,811 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:15:23,811 INFO  - publish: exit func ret=True
+2022-04-10 16:15:23,811 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:15:23,811 INFO  - publish: exit func ret=True
+2022-04-10 16:15:23,811 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:15:23,811 INFO  - publish: exit func ret=True
+2022-04-10 16:15:23,812 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:15:23,812 INFO  - publish: exit func ret=True
+2022-04-10 16:15:23,812 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:15:23,812 INFO  - publish: exit func ret=True
+2022-04-10 16:15:23,812 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:15:23,812 INFO  - publish: exit func ret=False
+2022-04-10 16:16:02,648 INFO  - new_cart: created new cart
+2022-04-10 16:16:02,648 INFO  - new_cart: created new cart
+2022-04-10 16:16:02,649 INFO  - new_cart: created new cart
+2022-04-10 16:16:41,196 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:16:41,196 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 16:17:04,759 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:17:04,759 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 16:17:04,760 INFO  - new_cart: created new cart
+2022-04-10 16:17:04,760 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:17:04,760 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 16:17:31,043 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:17:31,044 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 16:17:31,044 INFO  - new_cart: created new cart
+2022-04-10 16:17:31,044 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:17:31,044 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 16:17:31,044 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:17:31,044 INFO  - publish: exit func ret=True
+2022-04-10 16:17:31,044 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:17:58,631 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:17:58,631 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 16:17:58,632 INFO  - new_cart: created new cart
+2022-04-10 16:17:58,632 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:17:58,632 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 16:17:58,632 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:17:58,632 INFO  - publish: exit func ret=True
+2022-04-10 16:17:58,632 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:18:35,141 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:18:35,141 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 16:18:35,141 INFO  - new_cart: created new cart
+2022-04-10 16:18:35,141 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:18:35,141 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 16:18:35,141 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:18:35,141 INFO  - publish: exit func ret=True
+2022-04-10 16:18:35,141 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:18:35,141 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:22:12,417 INFO  - new_cart: created new cart
+2022-04-10 16:22:12,417 INFO  - remove_from_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:24:00,316 INFO  - new_cart: created new cart
+2022-04-10 16:24:00,317 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:24:00,317 INFO  - publish: exit func ret=True
+2022-04-10 16:24:00,317 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:24:00,317 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:24:00,317 INFO  - remove_from_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:24:29,748 INFO  - new_cart: created new cart
+2022-04-10 16:24:29,748 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:24:29,748 INFO  - publish: exit func ret=True
+2022-04-10 16:24:29,748 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:24:29,748 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:24:29,748 INFO  - remove_from_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:25:15,670 INFO  - new_cart: created new cart
+2022-04-10 16:25:15,671 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:25:15,671 INFO  - publish: exit func ret=True
+2022-04-10 16:25:15,671 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:25:15,671 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:25:15,671 INFO  - remove_from_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:25:25,779 INFO  - new_cart: created new cart
+2022-04-10 16:25:25,779 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:25:25,779 INFO  - publish: exit func ret=True
+2022-04-10 16:25:25,779 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:25:25,779 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:25:25,779 INFO  - remove_from_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:27:39,753 INFO  - new_cart: created new cart
+2022-04-10 16:27:39,753 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:27:39,753 INFO  - publish: exit func ret=True
+2022-04-10 16:27:39,753 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:27:39,753 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:27:39,754 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:27:39,754 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 16:27:39,754 INFO  - remove_from_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:29:32,354 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:29:32,354 INFO  - publish: exit func ret=True
+2022-04-10 16:29:32,354 INFO  - new_cart: created new cart
+2022-04-10 16:29:32,354 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:29:32,354 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:29:32,354 INFO  - remove_from_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:29:40,668 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:29:40,668 INFO  - publish: exit func ret=True
+2022-04-10 16:29:40,668 INFO  - new_cart: created new cart
+2022-04-10 16:29:40,668 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:29:40,668 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:29:40,668 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:29:40,668 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 16:29:40,668 INFO  - remove_from_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:29:52,017 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:29:52,017 INFO  - publish: exit func ret=True
+2022-04-10 16:29:52,017 INFO  - new_cart: created new cart
+2022-04-10 16:29:52,017 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:29:52,017 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:29:52,017 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:29:52,017 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 16:29:52,017 INFO  - remove_from_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:33:00,006 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:33:00,006 INFO  - publish: exit func ret=True
+2022-04-10 16:33:00,006 INFO  - new_cart: created new cart
+2022-04-10 16:33:00,006 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:33:11,820 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:33:11,820 INFO  - publish: exit func ret=True
+2022-04-10 16:33:11,820 INFO  - new_cart: created new cart
+2022-04-10 16:33:11,820 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:33:11,820 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:33:11,820 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:33:11,820 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 16:33:11,821 INFO  - remove_from_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:33:32,587 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:33:32,587 INFO  - publish: exit func ret=True
+2022-04-10 16:33:32,587 INFO  - new_cart: created new cart
+2022-04-10 16:33:32,587 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:33:32,587 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:33:32,587 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:33:32,587 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 16:33:32,587 INFO  - remove_from_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:33:44,075 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:33:44,075 INFO  - publish: exit func ret=True
+2022-04-10 16:33:44,075 INFO  - new_cart: created new cart
+2022-04-10 16:33:44,075 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:33:44,075 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:33:44,075 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:33:44,076 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 16:34:00,092 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:34:00,092 INFO  - publish: exit func ret=True
+2022-04-10 16:34:00,092 INFO  - new_cart: created new cart
+2022-04-10 16:34:00,092 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:34:00,093 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:34:00,093 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:34:00,093 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 16:35:04,102 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:35:04,103 INFO  - publish: exit func ret=True
+2022-04-10 16:35:04,103 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:35:04,103 INFO  - publish: exit func ret=True
+2022-04-10 16:35:04,103 INFO  - new_cart: created new cart
+2022-04-10 16:35:04,103 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:35:04,103 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:35:04,103 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:35:04,103 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:35:13,960 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:35:13,960 INFO  - publish: exit func ret=True
+2022-04-10 16:35:13,960 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:35:13,960 INFO  - publish: exit func ret=True
+2022-04-10 16:35:13,960 INFO  - new_cart: created new cart
+2022-04-10 16:35:13,960 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:35:13,960 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:35:13,960 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:35:13,960 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:35:13,960 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:35:13,960 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 16:36:27,704 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:36:27,704 INFO  - publish: exit func ret=True
+2022-04-10 16:36:27,704 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:36:27,704 INFO  - publish: exit func ret=True
+2022-04-10 16:36:27,704 INFO  - new_cart: created new cart
+2022-04-10 16:36:27,704 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:36:27,704 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:36:27,704 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:36:27,704 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:36:48,590 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:36:48,590 INFO  - publish: exit func ret=True
+2022-04-10 16:36:48,590 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:36:48,590 INFO  - publish: exit func ret=True
+2022-04-10 16:36:48,590 INFO  - new_cart: created new cart
+2022-04-10 16:36:48,591 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:36:48,591 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:36:48,591 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:36:48,591 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:36:48,591 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:36:48,591 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 16:36:48,591 INFO  - remove_from_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:37:14,657 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:37:14,657 INFO  - publish: exit func ret=True
+2022-04-10 16:37:14,657 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:37:14,657 INFO  - publish: exit func ret=True
+2022-04-10 16:37:14,657 INFO  - new_cart: created new cart
+2022-04-10 16:37:14,657 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:37:14,657 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:37:14,657 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:37:14,657 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:37:14,658 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:37:14,658 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 16:37:14,658 INFO  - remove_from_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:37:20,294 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:37:20,294 INFO  - publish: exit func ret=True
+2022-04-10 16:37:20,294 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:37:20,294 INFO  - publish: exit func ret=True
+2022-04-10 16:37:20,295 INFO  - new_cart: created new cart
+2022-04-10 16:37:20,295 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:37:20,295 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:37:20,295 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:37:20,295 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:37:20,295 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:37:20,295 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 16:37:20,295 INFO  - remove_from_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:38:28,760 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:38:28,760 INFO  - publish: exit func ret=True
+2022-04-10 16:38:28,760 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:38:28,760 INFO  - publish: exit func ret=True
+2022-04-10 16:38:28,760 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:38:28,760 INFO  - publish: exit func ret=True
+2022-04-10 16:38:28,760 INFO  - new_cart: created new cart
+2022-04-10 16:38:28,760 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:38:28,760 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:38:28,760 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:38:28,760 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:38:28,761 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:38:28,761 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:38:28,761 INFO  - remove_from_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:39:55,370 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:39:55,370 INFO  - publish: exit func ret=True
+2022-04-10 16:39:55,370 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:39:55,370 INFO  - publish: exit func ret=True
+2022-04-10 16:39:55,370 INFO  - publish: start func with producer_id=%(producer_id), product=%(product)
+2022-04-10 16:39:55,370 INFO  - publish: exit func ret=True
+2022-04-10 16:39:55,370 INFO  - new_cart: created new cart
+2022-04-10 16:39:55,370 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:39:55,371 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:39:55,371 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:39:55,371 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:39:55,371 INFO  - add_to_cart: start func with cart_id=%(cart_id), product=%(product)
+2022-04-10 16:39:55,371 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:39:55,371 INFO  - place_order: start func with cart_id=%(cart_id) and returned
+2022-04-10 16:41:38,980 INFO  - add_to_cart: start func with cart_id=0, product=id1
+2022-04-10 16:41:38,980 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 16:41:38,980 INFO  - new_cart: created new cart
+2022-04-10 16:41:38,980 INFO  - add_to_cart: start func with cart_id=0, product=id1
+2022-04-10 16:41:38,980 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 16:41:38,980 INFO  - publish: start func with producer_id=0, product=id1
+2022-04-10 16:41:38,980 INFO  - publish: exit func ret=True
+2022-04-10 16:41:38,981 INFO  - add_to_cart: start func with cart_id=0, product=id1
+2022-04-10 16:41:38,981 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:41:38,981 INFO  - new_cart: created new cart
+2022-04-10 16:41:38,981 INFO  - new_cart: created new cart
+2022-04-10 16:41:38,981 INFO  - new_cart: created new cart
+2022-04-10 16:41:38,983 INFO  - publish: start func with producer_id=0, product=id1
+2022-04-10 16:41:38,984 INFO  - publish: exit func ret=True
+2022-04-10 16:41:38,984 INFO  - publish: start func with producer_id=0, product=id2
+2022-04-10 16:41:38,984 INFO  - publish: exit func ret=True
+2022-04-10 16:41:38,984 INFO  - publish: start func with producer_id=0, product=id3
+2022-04-10 16:41:38,984 INFO  - publish: exit func ret=True
+2022-04-10 16:41:38,984 INFO  - new_cart: created new cart
+2022-04-10 16:41:38,984 INFO  - add_to_cart: start func with cart_id=0, product=id1
+2022-04-10 16:41:38,984 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:41:38,984 INFO  - add_to_cart: start func with cart_id=0, product=id2
+2022-04-10 16:41:38,984 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:41:38,984 INFO  - add_to_cart: start func with cart_id=0, product=id3
+2022-04-10 16:41:38,984 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:41:38,984 INFO  - place_order: start func with cart_id=0 and returned
+2022-04-10 16:41:38,985 INFO  - publish: start func with producer_id=0, product=id1
+2022-04-10 16:41:38,986 INFO  - publish: exit func ret=True
+2022-04-10 16:41:38,986 INFO  - publish: start func with producer_id=0, product=id1
+2022-04-10 16:41:38,986 INFO  - publish: exit func ret=True
+2022-04-10 16:41:38,986 INFO  - publish: start func with producer_id=0, product=id1
+2022-04-10 16:41:38,986 INFO  - publish: exit func ret=True
+2022-04-10 16:41:38,986 INFO  - publish: start func with producer_id=0, product=id1
+2022-04-10 16:41:38,986 INFO  - publish: exit func ret=True
+2022-04-10 16:41:38,986 INFO  - publish: start func with producer_id=0, product=id1
+2022-04-10 16:41:38,986 INFO  - publish: exit func ret=True
+2022-04-10 16:41:38,987 INFO  - publish: start func with producer_id=0, product=id1
+2022-04-10 16:41:38,987 INFO  - publish: exit func ret=True
+2022-04-10 16:41:38,987 INFO  - publish: start func with producer_id=0, product=id1
+2022-04-10 16:41:38,987 INFO  - publish: exit func ret=True
+2022-04-10 16:41:38,987 INFO  - publish: start func with producer_id=0, product=id1
+2022-04-10 16:41:38,987 INFO  - publish: exit func ret=True
+2022-04-10 16:41:38,987 INFO  - publish: start func with producer_id=0, product=id1
+2022-04-10 16:41:38,987 INFO  - publish: exit func ret=False
+2022-04-10 16:41:38,988 INFO  - register_producer: registered producer
+2022-04-10 16:41:38,988 INFO  - register_producer: registered producer
+2022-04-10 16:41:38,988 INFO  - register_producer: registered producer
+2022-04-10 16:41:38,989 INFO  - publish: start func with producer_id=0, product=id1
+2022-04-10 16:41:38,989 INFO  - publish: exit func ret=True
+2022-04-10 16:41:38,989 INFO  - publish: start func with producer_id=0, product=id2
+2022-04-10 16:41:38,989 INFO  - publish: exit func ret=True
+2022-04-10 16:41:38,989 INFO  - publish: start func with producer_id=0, product=id1
+2022-04-10 16:41:38,989 INFO  - publish: exit func ret=True
+2022-04-10 16:41:38,989 INFO  - new_cart: created new cart
+2022-04-10 16:41:38,989 INFO  - add_to_cart: start func with cart_id=0, product=id1
+2022-04-10 16:41:38,989 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:41:38,989 INFO  - add_to_cart: start func with cart_id=0, product=id2
+2022-04-10 16:41:38,989 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:41:38,989 INFO  - add_to_cart: start func with cart_id=0, product=id1
+2022-04-10 16:41:38,989 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 16:41:38,990 INFO  - remove_from_cart: start func with cart_id=%s, product=%s
