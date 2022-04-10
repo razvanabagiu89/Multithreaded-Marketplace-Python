@@ -1,26 +1,87 @@
-# Arhitectura Sistemelor de calcul - Tema 1 - Marketplace, Martie 2021
+# Marketplace with Multiple Producers Multiple Consumers with Python   
 
-# Enunt
-http://ocw.cs.pub.ro/courses/asc/teme/tema1
+## About
 
-# Testare
+https://ocw.cs.pub.ro/courses/asc/teme/tema1
 
+By using the MPMC model, implement using multi-threading, logging and unit testing
+a marketplace in which producers put products in their own queues, and consumers
+take them out independently of the others without generating deadlocks or
+inefficient delays.
 
-* Folositi scriptul run_tests.sh.
-* Schimbați înainte de a îl rula variabila PYTHON din interiorul lui cu path-ul de pe sistemul vostru
-* Fișierele de input și output-referință se află în directorul tests/
-   * tot în acest director se generează și fisierul output al rulării temei folosind test.py
-* Pentru a verifica partea de code-style, trebuie să aveți instalat pylint
-   * am oferit în schelet fișierul pylintrc cu configurarea acestui tool
-   * puteți da comanda pylint pe sursele voastre sau să decomentați linia pentru pylint din scriptul run_tests.sh
+## How to run the tests
 
-Directorul test-gen conține scripturi pentru generarea testelor.
+- run local bash script in skel folder provided by ASC team
 
-* README_TESTS - descrie formatul json al fișierelor de intrare
-* test_generator.py - generează fișierele aferente unui test
-* test_utils.py - constante utilizate în test_generator
-* generate_tests.sh - generează cele 10 teste oferite în schelet și pentru care se va oferi punctajul temei
+## Structure & Flow
 
-Puteți să testați tema și pe teste proprii create folosind scriptul test_generator.py
+### For solving the tasks I used the following modules:
 
-Informații despre conținutul fișierelor de intrare/ ieșire se regăsesc [aici](https://bitbucket.org/ASC-admin/asc/src/master/assignments/1-marketplace/skel/test-gen/README_TESTS.md).
+- marketplace.py
+  - the marketplace contains two dictionaries:
+    - queue is a nested dictionary containing the primary key the producer_id and then the interior
+  dictionary is made up of products and their quantity
+    - the cart is a dictionary containing the key of the cart id and a list associated with it that
+  will contain all the products added to the cart by the consumers
+  
+  - register_producer()
+    - will assign a unique id to the producer calling it
+  - publish(producer_id, product)
+    - will publish the product from the parameters by first checking
+  if the producer_id has any other products in the marketplace and if so,
+  it will go to its own dictionary and publish the product there by checking
+  if the product is already there, otherwise creating the entry.
+  If it is, it will first check if the queue limit is not reached, then
+  it'll increment its quantity or if it's not, it'll create the entry
+  with quantity as one.
+  - new_cart()
+    - will assign a unique id of a cart to the consumer calling it
+  - add_to_cart(cart_id, product)
+    - checks if the product exists in the marketplace and if the
+  marketplace has any quantity for it. If so it will add it to the
+  consumer's cart and make it unavailable to the other consumers
+  by decrementing its quantity in the marketplace.
+  - remove_from_cart(cart_id, product)
+    - self explanatory, will remove the product then increment
+  back the quantity, so it will be available to the other consumers
+  - place_order
+    - will return a full list of all objects added to the cart
+  by the consumer
+
+- producer.py
+  - the producer has a 'while True' because he needs to keep on
+creating sequentially its product and wait a publish_time,
+then add them to their queue. If the queue is full, the producer will 
+sleep for a republish_wait_time and try again.
+
+- consumer.py
+  - the consumer will create multiple shopping carts, and use
+operations like adding or removing from the carts different 
+products. After all these operations are done, it will place the
+order and print everything the consumer bought
+
+## Synchronization
+
+All the synchronization was done using locks. The sleep was used
+as it was required to sleep the cooldowns each entity has.
+
+## Unit testing
+
+TestMarketplaceMethods is the class used for unit testing located
+in marketplace.py. It tests all the methods from this module in
+different scenarios and has a 100% success rate.
+
+## Logging
+
+Logging is done using the logging module and a Rotating File Handler.
+When the content is written to marketplace.log and reaches the max limit
+of bytes, it will write to 30 more files and continue the logging.
+All loggings are done using the INFO level as required to.
+Also, the logging is done using GMT time to avoid time inconsistencies
+on the local machine.
+
+## Observations
+
+By running the unit tests we notice this warning:
+"ResourceWarning: unclosed file" and that is because of the
+RotatingFileHandler not being used by the unit tests (not required to).

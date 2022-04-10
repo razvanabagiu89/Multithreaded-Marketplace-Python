@@ -117,7 +117,7 @@ class Marketplace:
     # { "producer_id" : { "product_id" : qty } }
     queue: dict
 
-    # nested dictionary of type:
+    # dictionary of type:
     # { "cart_id" : [] }, where [] = list of products from the cart
     carts: dict
     cart_ids: int

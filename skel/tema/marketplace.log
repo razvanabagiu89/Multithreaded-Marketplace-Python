@@ -549,3 +549,64 @@
 2022-04-10 17:11:07,542 INFO  - add_to_cart: start func with cart_id=0, product=id1
 2022-04-10 17:11:07,542 INFO  - add_to_cart: exit func with ret=True
 2022-04-10 17:11:07,542 INFO  - remove_from_cart: start func with cart_id=%s, product=%s
+2022-04-10 17:48:58,812 INFO  - add_to_cart: start func with cart_id=0, product=id1
+2022-04-10 17:48:58,812 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 17:48:58,812 INFO  - new_cart: created new cart
+2022-04-10 17:48:58,812 INFO  - add_to_cart: start func with cart_id=0, product=id1
+2022-04-10 17:48:58,812 INFO  - add_to_cart: exit func with ret=False
+2022-04-10 17:48:58,812 INFO  - publish: start func with producer_id=0, product=id1
+2022-04-10 17:48:58,812 INFO  - publish: exit func ret=True
+2022-04-10 17:48:58,812 INFO  - add_to_cart: start func with cart_id=0, product=id1
+2022-04-10 17:48:58,812 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 17:48:58,813 INFO  - new_cart: created new cart
+2022-04-10 17:48:58,813 INFO  - new_cart: created new cart
+2022-04-10 17:48:58,813 INFO  - new_cart: created new cart
+2022-04-10 17:48:58,815 INFO  - publish: start func with producer_id=0, product=id1
+2022-04-10 17:48:58,815 INFO  - publish: exit func ret=True
+2022-04-10 17:48:58,815 INFO  - publish: start func with producer_id=0, product=id2
+2022-04-10 17:48:58,815 INFO  - publish: exit func ret=True
+2022-04-10 17:48:58,815 INFO  - publish: start func with producer_id=0, product=id3
+2022-04-10 17:48:58,815 INFO  - publish: exit func ret=True
+2022-04-10 17:48:58,815 INFO  - new_cart: created new cart
+2022-04-10 17:48:58,815 INFO  - add_to_cart: start func with cart_id=0, product=id1
+2022-04-10 17:48:58,815 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 17:48:58,816 INFO  - add_to_cart: start func with cart_id=0, product=id2
+2022-04-10 17:48:58,816 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 17:48:58,816 INFO  - add_to_cart: start func with cart_id=0, product=id3
+2022-04-10 17:48:58,816 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 17:48:58,816 INFO  - place_order: start func with cart_id=0 and returned
+2022-04-10 17:48:58,816 INFO  - publish: start func with producer_id=0, product=id1
+2022-04-10 17:48:58,817 INFO  - publish: exit func ret=True
+2022-04-10 17:48:58,817 INFO  - publish: start func with producer_id=0, product=id1
+2022-04-10 17:48:58,817 INFO  - publish: exit func ret=True
+2022-04-10 17:48:58,817 INFO  - publish: start func with producer_id=0, product=id1
+2022-04-10 17:48:58,817 INFO  - publish: exit func ret=True
+2022-04-10 17:48:58,817 INFO  - publish: start func with producer_id=0, product=id1
+2022-04-10 17:48:58,817 INFO  - publish: exit func ret=True
+2022-04-10 17:48:58,817 INFO  - publish: start func with producer_id=0, product=id1
+2022-04-10 17:48:58,817 INFO  - publish: exit func ret=True
+2022-04-10 17:48:58,817 INFO  - publish: start func with producer_id=0, product=id1
+2022-04-10 17:48:58,817 INFO  - publish: exit func ret=True
+2022-04-10 17:48:58,817 INFO  - publish: start func with producer_id=0, product=id1
+2022-04-10 17:48:58,817 INFO  - publish: exit func ret=True
+2022-04-10 17:48:58,817 INFO  - publish: start func with producer_id=0, product=id1
+2022-04-10 17:48:58,817 INFO  - publish: exit func ret=True
+2022-04-10 17:48:58,817 INFO  - publish: start func with producer_id=0, product=id1
+2022-04-10 17:48:58,818 INFO  - publish: exit func ret=False
+2022-04-10 17:48:58,818 INFO  - register_producer: registered producer
+2022-04-10 17:48:58,818 INFO  - register_producer: registered producer
+2022-04-10 17:48:58,818 INFO  - register_producer: registered producer
+2022-04-10 17:48:58,819 INFO  - publish: start func with producer_id=0, product=id1
+2022-04-10 17:48:58,819 INFO  - publish: exit func ret=True
+2022-04-10 17:48:58,819 INFO  - publish: start func with producer_id=0, product=id2
+2022-04-10 17:48:58,819 INFO  - publish: exit func ret=True
+2022-04-10 17:48:58,819 INFO  - publish: start func with producer_id=0, product=id1
+2022-04-10 17:48:58,820 INFO  - publish: exit func ret=True
+2022-04-10 17:48:58,820 INFO  - new_cart: created new cart
+2022-04-10 17:48:58,820 INFO  - add_to_cart: start func with cart_id=0, product=id1
+2022-04-10 17:48:58,820 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 17:48:58,820 INFO  - add_to_cart: start func with cart_id=0, product=id2
+2022-04-10 17:48:58,820 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 17:48:58,820 INFO  - add_to_cart: start func with cart_id=0, product=id1
+2022-04-10 17:48:58,820 INFO  - add_to_cart: exit func with ret=True
+2022-04-10 17:48:58,821 INFO  - remove_from_cart: start func with cart_id=%s, product=%s
